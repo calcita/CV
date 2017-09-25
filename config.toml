@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
-title = "A Hugo website"
-theme = "hugo-lithium-theme"
+title = "Hugo"
+theme = "hugo-theme-nix"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -14,14 +14,24 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "/about/"
 [[menu.main]]
     name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
+    url = "https://github.com/calcita"
 [[menu.main]]
     name = "Twitter"
-    url = "https://twitter.com/rstudio"
+    url = "https://twitter.com/calcita3"
 
 [params]
-    description = "A website built through Hugo and blogdown."
+    description = ""
 
+  GithubID = "your_github"
+  TwitterID = "your_twitter"
+  LinkedInID = "your_linkedin"
+  Name = "Gabriela Mathieu"
+  HeaderUsername = "username"
+  HeaderHostname = "hostname"
+  Email = "gmathieu@gmx.com"
+  About = "I am looking for a job in Germany or remote. I do statistical analysis with R. I am passionate about R and free culture. I am from Uruguay and now I am in Berlin"
+  ProfilePicture = "logo.jpg"
+  SlackURL = "https://r-users.slack.com/"
     # options for highlight.js (version, additional languages, and theme)
     highlightjsVersion = "9.11.0"
     highlightjsCDN = "//cdn.bootcss.com"
@@ -32,8 +42,13 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     MathJaxVersion = "2.7.1"
 
     [params.logo]
-    url = "logo.png"
+    url = "logo.jpg"
     width = 50
     height = 50
     alt = "Logo"
 
+[menu]
+  [[menu.header]]
+    name = "posts"
+    weight = 0
+    url = "/posts"
