@@ -2,39 +2,39 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gabriela Mathieu</title>
-    <link>/tags/</link>
+    <link>/gabrielamathieu.tk/tags/</link>
     <description>Recent content in Tags on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/gabrielamathieu.tk/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Germany</title>
-      <link>/tags/germany/</link>
+      <link>/gabrielamathieu.tk/tags/germany/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/germany/</guid>
+      <guid>/gabrielamathieu.tk/tags/germany/</guid>
       <description></description>
     </item>
     
     <item>
       <title>R</title>
-      <link>/tags/r/</link>
+      <link>/gabrielamathieu.tk/tags/r/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/r/</guid>
+      <guid>/gabrielamathieu.tk/tags/r/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Statistics</title>
-      <link>/tags/statistics/</link>
+      <link>/gabrielamathieu.tk/tags/statistics/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/tags/statistics/</guid>
+      <guid>/gabrielamathieu.tk/tags/statistics/</guid>
       <description></description>
     </item>
     

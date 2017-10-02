@@ -1,7 +1,7 @@
-baseurl = "/"
+baseurl = "gabrielamathieu.tk/"
 languageCode = "en-us"
 title = "Gabriela Mathieu"
-theme = "hugo-theme-nix"
+theme = "hugo-lithium-theme"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
@@ -20,7 +20,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
     url = "https://twitter.com/calcita3"
 
 [params]
-    description = ""
+    description = "Gabriela Mathieu"
 
   GithubID = "calcita"
   TwitterID = "calcita3"

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>R on Gabriela Mathieu</title>
-    <link>/tags/r/</link>
+    <link>/gabrielamathieu.tk/tags/r/</link>
     <description>Recent content in R on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 23 Jul 2015 21:13:14 -0500</lastBuildDate>
     
-	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/gabrielamathieu.tk/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Gabriela Mathieu</title>
-      <link>/2015/07/23/gabriela-mathieu/</link>
+      <link>/gabrielamathieu.tk/2015/07/23/gabriela-mathieu/</link>
       <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
       
-      <guid>/2015/07/23/gabriela-mathieu/</guid>
+      <guid>/gabrielamathieu.tk/2015/07/23/gabriela-mathieu/</guid>
       <description></description>
     </item>
     
