@@ -18,3 +18,17 @@ m <- leaflet() %>%
   addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
 m  # Print the map
 ```
+guardo
+```{r, echo = FALSE}
+#library(htmlwidgets)
+#library(leaflet)
+
+#m <- leaflet() %>% #basic map
+#     addTiles() %>%
+
+
+#saveWidget(widget = m, file="your_map.html", selfcontained = FALSE)
+```
+
+
+<iframe src="https://github.com/calcita/CV/blob/master/public/2015/07/23/gabriela-mathieu/index.html"          width="100%"></iframe>
