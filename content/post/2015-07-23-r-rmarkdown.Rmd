@@ -31,5 +31,5 @@ guardo
 ```
 
 <div class="leaflet html-widget" type="application/json">
-<iframe src="https://github.com/calcita/CV/blob/master/public/2015/07/23/gabriela-mathieu/index.html"          width="100%"></iframe>
+<iframe src="https://github.com/calcita/CV/blob/master/public/2015/07/23/gabriela-mathieu/index.html"></iframe>
 </div>
