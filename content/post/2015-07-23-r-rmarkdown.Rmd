@@ -18,9 +18,11 @@ contenido <- paste(sep = "<br/>",
                paste0("<a href='https://eltelegrafo.com/2017/10/asesino-de-dos-balazos-a-su-expareja-tras-violar-prohibicion-de-acercamiento/", "'>Enlace prensa</a>"))
 
  
-leaflet() %>% addTiles() %>%
+leaflet() %>%
+  setView(-56.1782,-34.8605, zoom=13)%>%
+  addTiles() %>%
   #fitbounds(0,40,10,50)
-  #setView(-56.1760,-34.8843)%>%
+  
   # addPopups(-56.1778, -34.8853, contenido,
   #           options = popupOptions(closeButton = FALSE)
   addMarkers(-56.1778, -34.8853, popup=contenido)#%>%
