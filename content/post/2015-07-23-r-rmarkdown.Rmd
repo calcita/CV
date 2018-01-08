@@ -1,34 +1,31 @@
 ---
 title: "Prueba"
-author: "Frida Gomam"
+author: ""
 date: 2017-09-23T21:13:14-05:00
 categories: ["R"]
 tags: ["R", "Germany", "Statistics"]
 ---
 
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(collapse = TRUE)
-```
 
 ```{r, echo = FALSE}
 library(leaflet)
 
-m <- leaflet() %>%
-  addTiles() %>%  # Add default OpenStreetMap map tiles
-  addMarkers(lng=174.768, lat=-36.852, popup="The birthplace of R")
-m  # Print the map
+contenido <- paste(sep = "<br/>",
+               paste0("<img src='https://github.com/calcita/CV/blob/master/static/post/2015-07-23-r-rmarkdown_files/figure-html/sin_nombre.png?raw=true", "' />"),
+               paste0("<b>Nombre: </b>", "sdfsdf sdfsdf"),
+               paste0("<b>Fecha: </b>", "dd/mm/aaaa"),
+               paste0("<b>Lugar: </b>", "lo más preciso posible"),
+               paste0("<a href='https://eltelegrafo.com/2017/10/asesino-de-dos-balazos-a-su-expareja-tras-violar-prohibicion-de-acercamiento/", "'>Enlace prensa</a>"))
+
+ 
+leaflet() %>% addTiles() %>%
+  #fitbounds(0,40,10,50)
+  #setView(-56.1760,-34.8843)%>%
+  # addPopups(-56.1778, -34.8853, contenido,
+  #           options = popupOptions(closeButton = FALSE)
+  addMarkers(-56.1778, -34.8853, popup=contenido)#%>%
+  #addPopups(-56.1778, -34.8853, popup=contenido,
+   #          options = popupOptions(closeButton = TRUE)
+  #)
+ 
 ```
-guardo
-```{r, echo = FALSE}
-#library(htmlwidgets)
-#library(leaflet)
-
-#m <- leaflet() %>% #basic map
-#     addTiles() %>%
-
-
-#saveWidget(widget = m, file="your_map.html", selfcontained = FALSE)
-```
-
-
-<iframe src="https://github.com/calcita/CV/blob/master/public/2015/07/23/gabriela-mathieu/index.html"></iframe>
