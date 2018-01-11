@@ -5,7 +5,7 @@
     <link>/tags/r/</link>
     <description>Recent content in R on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
+    <language>en-US</language>
     <lastBuildDate>Sat, 23 Sep 2017 21:13:14 -0500</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
@@ -13,10 +13,10 @@
     
     <item>
       <title>Add a pop-up with an image to a leaflet map in R</title>
-      <link>/2017/09/23/add-a-pop-up-with-an-image-to-a-leaflet-map-in-r/</link>
+      <link>/post/2015-07-23-r-rmarkdown/</link>
       <pubDate>Sat, 23 Sep 2017 21:13:14 -0500</pubDate>
       
-      <guid>/2017/09/23/add-a-pop-up-with-an-image-to-a-leaflet-map-in-r/</guid>
+      <guid>/post/2015-07-23-r-rmarkdown/</guid>
       <description>We need only two commands to get a leaflet-map:
  library(leaflet) map &amp;lt;- leaflet() %&amp;gt;% addTiles() %&amp;gt;% To center the map at a certain point:
 setView(-58.287691, -33.137864,, zoom=13) %&amp;gt;% To add information at a that point:
