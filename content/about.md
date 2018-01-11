@@ -2,7 +2,13 @@
 title: "About me"
 ---
 
-I am looking for a job in Europe or remote. I do statistical analysis with R and teaching R. I am passionate about R and free culture. My work experience consists of: Statistics analysis about economy and social information with a geospatial an approach, statistics Teaching assistant and R software teaching instructor. I am from Uruguay and now I am in Berlin. I am interested in sports, photography and travel. I conjugated my love for R and travel on my [travel blog](//mapamundi.me/) made completely in R.
+I have 10+ years of R programming experience: data analysis and data visualization. I also have worked
+I do statistical analysis with R and teaching R.
+
+My work experience consists of: Statistics analysis about economy and social information with a geospatial an approach, statistics Teaching assistant and R software teaching instructor. I am from Uruguay and now I am in Berlin. I am interested in sports, photography and travel.
+
+I am interested in sports, photography and travel. I conjugated my love for R and travel on my [travel blog](//mapamundi.me/) made completely in R. I am passionate about R and free culture.
+ 
 
 ---
 
