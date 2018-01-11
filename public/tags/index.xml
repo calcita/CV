@@ -12,11 +12,20 @@
     
     
     <item>
-      <title>Germany</title>
-      <link>/tags/germany/</link>
+      <title>Leaflet</title>
+      <link>/tags/leaflet/</link>
       <pubDate>Sat, 23 Sep 2017 21:13:14 -0500</pubDate>
       
-      <guid>/tags/germany/</guid>
+      <guid>/tags/leaflet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Map</title>
+      <link>/tags/map/</link>
+      <pubDate>Sat, 23 Sep 2017 21:13:14 -0500</pubDate>
+      
+      <guid>/tags/map/</guid>
       <description></description>
     </item>
     
@@ -26,15 +35,6 @@
       <pubDate>Sat, 23 Sep 2017 21:13:14 -0500</pubDate>
       
       <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Statistics</title>
-      <link>/tags/statistics/</link>
-      <pubDate>Sat, 23 Sep 2017 21:13:14 -0500</pubDate>
-      
-      <guid>/tags/statistics/</guid>
       <description></description>
     </item>
     
