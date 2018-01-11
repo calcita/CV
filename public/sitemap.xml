@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/2017/09/23/a-map-in-r/</loc>
+    <loc>/2017/09/23/add-a-pop-up-with-an-image-to-a-leaflet-map-in-r/</loc>
     <lastmod>2017-09-23T21:13:14-05:00</lastmod>
   </url>
   
@@ -45,13 +45,13 @@
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2017-09-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2017-09-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>

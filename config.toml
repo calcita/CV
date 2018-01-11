@@ -1,7 +1,7 @@
 baseurl = "/"
 languageCode = "en-us"
 title = "Gabriela Mathieu"
-theme = "hugo-lithium-theme"
+theme = "cocoa-eh-hugo-theme"
 googleAnalytics = ""
 disqusShortname = ""
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
