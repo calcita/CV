@@ -1,11 +1,11 @@
 baseurl = "http://gabrielamathieu.info/"
 title = "Gabriela Mathieu"
 # for smart copyright line, leave this blank and check [params.copyright]
-#copyright = ""
+copyright = "images/cc-by-sa.png"
 logo="logo.png"
 theme = "minimo"
 
-disqusShortname = ""
+disqusShortname = "disqus_4K8SlMaMum"
 googleAnalytics = ""
 
 Paginate = 5
@@ -24,16 +24,17 @@ description = "Sobre R y la cultura libre"
 title404 = "Nada aquí!"
 
 [params.assets]
-favicon = "logo.png" #"favicon.ico"
+favicon = "favicon.ico" #"favicon.ico"
 customCSS = ["css/custom.css"]
 customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
-#prefix = ""
-#holder = ""
+#prefix = "img/cc-by-sa.png"
+#holder = "CC"
 #startYear = ""
 #suffix = ""
+
 
 [params.settings]
 # date & time format: https://golang.org/pkg/time/
@@ -74,7 +75,7 @@ github = "calcita"
 gitlab = "calcita"
 instagram = ""
 linkedin = "mathieugabriela"
-twitter = ""
+twitter = "calcita3"
 telegram = "calcita3"
 google_scholar = ""
 
@@ -92,8 +93,8 @@ page = "/:slug/"
 [[menu.main]]
 name = "About me"
 weight = -10
-identifier = "Aboutme"
-url = ""
+identifier = "about-me"
+url = "/post/about-me/"
 
 [blackfriday]
 hrefTargetBlank = true

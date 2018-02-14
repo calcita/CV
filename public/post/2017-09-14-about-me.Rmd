@@ -12,7 +12,7 @@ I do statistical analysis with R and **teaching R**.
 
 My work experience consists of: Statistics analysis about economy and social information with a geospatial an approach, statistics Teaching assistant and R software teaching instructor. I am from Uruguay and now I am in Berlin. I am interested in sports, photography and travel.
 
-I am interested in sports, photography and travel. I conjugated my love for R and travel on my [travel blog](//mapamundi.me/) made completely in R. I am passionate about R and **free culture**.
+I am interested in sports, photography and travel. I conjugated my love for R and travel on my [travel blog](//mapamundi.me/) made completely in R. I am passionate about R and **free culture**. This work is licensed under a [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/deed.en_US).
  
 
 ---
