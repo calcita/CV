@@ -52,7 +52,7 @@ sticky = true
 [params.widgets]
 homepage = ["recent_posts"]
 sidebar = ["about","taxonomy_cloud"]
-widget_area_slug=[about]
+
 
 [params.opengraph.facebook]
 admins = [] # array of Facebook IDs
