@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Telegram on Gabriela Mathieu</title>
+    <link>/tags/telegram/</link>
+    <description>Recent content in Telegram on Gabriela Mathieu</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Wed, 14 Feb 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/telegram/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>¿Por qué la mayoría sigue usando Whatsapp si existe Telegram?</title>
+      <link>/post/por-qu%C3%A9-la-mayor%C3%ADa-sigue-usando-whatsapp-si-existe-telegram/</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/por-qu%C3%A9-la-mayor%C3%ADa-sigue-usando-whatsapp-si-existe-telegram/</guid>
+      <description>Yo no tengo una respuesta para eso. Me imagino que la razón principal es que si la mayoría de tus contactos solo utilizan whatsapp como app de mensajería, tenés pocos incentivos a usar abandonarla. La falta de espacio en el celular para instalar una nueva aplicación podría ser otra razón pero Telegram a diferencia de Whatsapp se puede utilizar desde la computadora o tablet sin necesidad de tener la app instalada en el celular.</description>
+    </item>
+    
+  </channel>
+</rss>

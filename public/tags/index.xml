@@ -46,5 +46,23 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Telegram</title>
+      <link>/tags/telegram/</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/telegram/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tor</title>
+      <link>/tags/tor/</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/tor/</guid>
+      <description></description>
+    </item>
+    
   </channel>
 </rss>
