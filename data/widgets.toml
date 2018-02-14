@@ -1,8 +1,8 @@
 # About Widget config
 [about]
-title = ""                            # default: .Site.Title
+title = "About me"                            # default: .Site.Title
 description = ""                      # default: .Site.Params.info.description
-logo = "/images/logo.png"             # default: "/images/logo.png"
+logo = "/img/logo.png"             # default: "/images/logo.png"
 
 # Recent Posts Widget config
 [recent_posts]
