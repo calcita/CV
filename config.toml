@@ -1,54 +1,105 @@
 baseurl = "/"
-theme = "cocoa-eh-hugo-theme"
-builddrafts = true
-canonifyurls = true
-contentdir = "content"
-languageCode = "en-US"
-layoutdir = "layouts"
-publishdir = "public"
-author = ""
-title = "  Gabriela Mathieu  "
-disqusshortname = ""
-pluralizelisttitles = false
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+title = "Gabriela Mathieu"
+# for smart copyright line, leave this blank and check [params.copyright]
+#copyright = ""
+logo="logo.png"
+theme = "minimo"
+
+disqusShortname = ""
+googleAnalytics = ""
+
+Paginate = 5
+preserveTaxonomyNames = true
+
+enableRobotsTXT = true # generate robots.txt
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+
+# Missing translations will default to this content language
+defaultContentLanguage = "en"
+
+[params.info]
+description = "Sobre R y la cultura libre"
+title404 = "Nada aquí!"
+
+[params.assets]
+favicon = "logo.png" #"favicon.ico"
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+#prefix = ""
+#holder = ""
+#startYear = ""
+#suffix = ""
+
+[params.settings]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02"
+archiveDateFormat = "Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+hideSocialMenu = false
+showReadingTime = true
+taxonomyCloudShuffle = true
+
+[params.sidebar]
+enable = true
+sticky = true
+
+[params.widgets]
+homepage = ["recent_posts"]
+sidebar = ["about","taxonomy_cloud"]
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter page username
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+codepen = ""
+email = "gmathieu@gmx.com"
+facebook = ""
+github = "calcita"
+gitlab = ""
+instagram = ""
+linkedin = "mathieugabriela"
+twitter = ""
+telegram = "calcita3"
+google_scholar = ""
+
+[params.social.config]
+platforms = ["github","facebook","twitter","instagram","email","codepen","gitlab","linkedin","telegram","google_scholar"]
+
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
 
 [permalinks]
-blog = "blog/:slug/"
+page = "/:slug/"
 
-[params]
-dateform = "Jan 2, 2006"
-dateformfull = "Mon Jan 2 2006 15:04:05 MST"
-description = "Personal blog"
-#copyright = "Copyright © 2015 Nishanth Shanmugham"
-copyrightUrl = "https://creativecommons.org/licenses/by-sa/4.0/"
-logofile = "img/logo2.png"
-faviconfile = "img/logo.jpg"
-highlightjs = true
-progressively = true
-share = true
-latestpostcount = 5
-github = "gmathieux"
-email = "gmathieu@gmx.com"
-linkedin = "mathieugabriela"
-#twitter = "example"
-#facebook = "facebook_id"
-#social_banner = "img/banner.png"
-usesmallsummarycard = true
-posts_navigation = true
-# issoHost = "comments.domain.tld:1234"
-# githubRepo = "githubUsername/repositoryName"
-small_banner_logo = false
+[[menu.main]]
+name = "About me"
+weight = -10
+identifier = "Aboutme"
+url = ""
 
-[params.colors]
-identifier = "#527fc1f"
-identifier_dark = "#1a3152"
-trivial = "#6a7a8b"
-foreground = "#181d2a"
-background = "#f9f9f9"
-background_dark = "#282a36"
-code = "#87a5d2"
-type = "#97d28b"
-special = "#ffcb8d"
-value = "#96c2d7"
-statement = "#ff8e91"
+[blackfriday]
+hrefTargetBlank = true
 
+[languages]
+# edit this block for your own language
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
