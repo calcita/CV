@@ -7,7 +7,7 @@ categories: [software-libre]
 tags: [email]
 ---
 
-Hace más de un año atrás empecé a recibir viajerxs en mi casa y lo que me llamó la atención es que varixs usaban una cuenta de correo GMX -está muy extendido su uso en países como Alemania[^ GMX es propiedad de United Internet, empresa que provee el hosting 1&1] y Austria-. Empecé a buscar información sobre GMX -Global Mail Exchange- y me decanté a empezar a usarlo -ya había probado otras alternativas a gmail sin convencerme del todo, por ejemplo, [openmailbox](https://www.openmailbox.org/), aunque lo seguiré esperando ya que está hecho con software libre-. Luego de más de un año de experiencia puedo darles mi punto de vista sobre GMX:
+Hace más de un año atrás empecé a recibir viajerxs en mi casa y lo que me llamó la atención es que varixs usaban una cuenta de correo GMX -está muy extendido su uso en países como Alemania[^1] y Austria-. Empecé a buscar información sobre GMX -Global Mail Exchange- y me decanté a empezar a usarlo -ya había probado otras alternativas a gmail sin convencerme del todo, por ejemplo, [openmailbox](https://www.openmailbox.org/), aunque lo seguiré esperando ya que está hecho con software libre-. Luego de más de un año de experiencia puedo darles mi punto de vista sobre GMX:
 
 ### Ventajas
 - Es un servicio de webmail gratuito
@@ -27,3 +27,5 @@ Hace más de un año atrás empecé a recibir viajerxs en mi casa y lo que me ll
 
 
 Otras alternativas que prometen y que probaré pronto se llaman [ProtonMail](https://protonmail.ch) y [Tutanota](https://tutanota.com/). Tutanota también es alemán como GMX pero con la ventaja de que está licenciado bajo GPL v3.
+
+[^1]: GMX es propiedad de United Internet, empresa que provee el hosting 1&1.
