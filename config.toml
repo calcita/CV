@@ -30,8 +30,8 @@ customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
-#prefix = "img/cc-by-sa.png"
-#holder = "CC"
+prefix = "Creative Commons"
+#holder = "CC-BY-SA"
 #startYear = ""
 #suffix = ""
 
