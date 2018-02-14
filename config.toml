@@ -5,7 +5,7 @@ copyright = "images/cc-by-sa.png"
 logo="logo.png"
 theme = "minimo"
 
-disqusShortname = "disqus_4K8SlMaMum"
+#disqusShortname = "disqus_4K8SlMaMum"
 googleAnalytics = ""
 
 Paginate = 5
