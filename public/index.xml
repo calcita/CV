@@ -5,10 +5,19 @@
     <link>/</link>
     <description>Recent content on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Sep 2017 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Wed, 14 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Alternativas a gmail</title>
+      <link>/post/alternativa-libre-a-gmail/</link>
+      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/alternativa-libre-a-gmail/</guid>
+      <description>Hace más de un año atrás empecé a recibir viajerxs en mi casa y lo que me llamó la atención es que varixs usaban una cuenta de correo GMX -está muy extendido su uso en países como Alemania[^ GMX es propiedad de United Internet, empresa que provee el hosting 1&amp;amp;1] y Austria-. Empecé a buscar información sobre GMX -Global Mail Exchange- y me decanté a empezar a usarlo -ya había probado otras alternativas a gmail sin convencerme del todo, por ejemplo, openmailbox, aunque lo seguiré esperando ya que está hecho con software libre-.</description>
+    </item>
     
     <item>
       <title>Add a pop-up with an image to a leaflet map in R</title>

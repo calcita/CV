@@ -1,0 +1,29 @@
+---
+title: Alternativas a gmail
+author: ''
+date: '2018-02-14'
+slug: alternativa-libre-a-gmail
+categories: [software-libre]
+tags: [email]
+---
+
+Hace más de un año atrás empecé a recibir viajerxs en mi casa y lo que me llamó la atención es que varixs usaban una cuenta de correo GMX -está muy extendido su uso en países como Alemania[^ GMX es propiedad de United Internet, empresa que provee el hosting 1&1] y Austria-. Empecé a buscar información sobre GMX -Global Mail Exchange- y me decanté a empezar a usarlo -ya había probado otras alternativas a gmail sin convencerme del todo, por ejemplo, [openmailbox](https://www.openmailbox.org/), aunque lo seguiré esperando ya que está hecho con software libre-. Luego de más de un año de experiencia puedo darles mi punto de vista sobre GMX:
+
+### Ventajas
+- Es un servicio de webmail gratuito
+- Alojamiento ilimitado de mensajes. Me descargé miles de mails desde mi casilla de Gmail; lo recomiendo!
+- Posibilidad de generar cuentas alias y todas fluyen en la misma cuenta principal. Pueden incluso ser diferentes: gmx.com, gmx.it, gmx.net, etc.
+- Utiliza la interfaz libre Qooxdoo, la cual es además sencilla y amigable.
+- Accesible a través de APP para el teléfono celular
+- Además de la casilla de correo ofrece una libreta de direcciones, un organizador -calendario- y 50 MB de almacenamiento de archivos.
+- Es posible descargar e-mails de otras cuentas diferentes a gmx.
+- El sistema anti-spam funciona muy bien.
+- Se puede transferir un archivo de hasta 50 MB.
+
+
+### Desventajas
+- No es posible editar archivos desde el File Storage pues no es un gestor de archivos, solo almacena.
+- No agrupa los mensajes por conversaciones pero si las respuestas incluyen los correos anteriores. 
+
+
+Otras alternativas que prometen y que probaré pronto se llaman [ProtonMail](https://protonmail.ch) y [Tutanota](https://tutanota.com/). Tutanota también es alemán como GMX pero con la ventaja de que está licenciado bajo GPL v3.
