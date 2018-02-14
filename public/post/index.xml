@@ -32,5 +32,16 @@ addMarkers(-58.287691, -33.137864, popup=&amp;quot;Frigorífico Anglo&amp;quot;)
 contenido &amp;lt;- paste(sep = &amp;quot;&amp;lt;br/&amp;gt;&amp;quot;, paste0(&amp;quot;&amp;lt;img src=&amp;#39;https://upload.wikimedia.org/wikipedia/commons/b/b1/El_Frigor%C3%ADfico_ANGLO_en_acci%C3%B3n.jpg&amp;quot;, &amp;quot;&amp;#39; /&amp;gt;&amp;quot;), paste0(&amp;quot;&amp;lt;b&amp;gt;Name: &amp;lt;/b&amp;gt;&amp;quot;, &amp;quot;Frigorífico Anglo&amp;quot;), paste0(&amp;quot;&amp;lt;b&amp;gt;Place: &amp;lt;/b&amp;gt;&amp;quot;, &amp;quot;Fray Bentos, Uruguay&amp;quot;), paste0(&amp;quot;&amp;lt;a href=&amp;#39;https://en.</description>
     </item>
     
+    <item>
+      <title>About me </title>
+      <link>/post/about-me/</link>
+      <pubDate>Thu, 14 Sep 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/about-me/</guid>
+      <description>I have 10+ years of R programming experience: data analysis and data visualization. I also have worked I do statistical analysis with R and teaching R.
+My work experience consists of: Statistics analysis about economy and social information with a geospatial an approach, statistics Teaching assistant and R software teaching instructor. I am from Uruguay and now I am in Berlin. I am interested in sports, photography and travel.
+I am interested in sports, photography and travel.</description>
+    </item>
+    
   </channel>
 </rss>
