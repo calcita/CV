@@ -1,12 +1,10 @@
 ---
 title: Navegar por internet de forma anónima
 author: ''
-date: '2018-02-14'
-slug: navegar-por-internet-de-forma-anónima
-categories:
-  - internet
-tags:
-  - Tor
+date: '2018-02-15'
+slug: navegar
+categories: [internet]
+tags: [Tor]
 ---
 
 ¿Qué pasa cuando te logeas a whatsapp web? No te aparece ningún aviso si lo hacés en navegadores tales como Mozilla Firefox o Chrome. En cambio si utilizás [Tor](https://www.torproject.org/), te aparecerá el siguiente mensaje:

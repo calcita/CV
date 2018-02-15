@@ -5,10 +5,20 @@
     <link>/</link>
     <description>Recent content on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Feb 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Navegar por internet de forma anónima</title>
+      <link>/post/navegar/</link>
+      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/navegar/</guid>
+      <description>¿Qué pasa cuando te logeas a whatsapp web? No te aparece ningún aviso si lo hacés en navegadores tales como Mozilla Firefox o Chrome. En cambio si utilizás Tor, te aparecerá el siguiente mensaje:
+  Tor navegación privada from calcita on Vimeo. Por otro lado, ventana privada o de modo incógnito que ofrecen Mozilla y Chrome no permiten una navegación realmente anónima. Recomiendo este post en el que se explica como navegar de manera más segura usando Mozilla.</description>
+    </item>
     
     <item>
       <title>Alternativas a gmail</title>
@@ -27,6 +37,15 @@
       <guid>/post/navegar-por-internet-de-forma-an%C3%B3nima/</guid>
       <description>¿Qué pasa cuando te logeas a whatsapp web? No te aparece ningún aviso si lo hacés en navegadores tales como Mozilla Firefox o Chrome. En cambio si utilizás Tor, te aparecerá el siguiente mensaje:
   Tor navegación privada from calcita on Vimeo. Por otro lado, ventana privada o de modo incógnito que ofrecen Mozilla y Chrome no permiten una navegación realmente anónima. Recomiendo este post en el que se explica como navegar de manera más segura usando Mozilla.</description>
+    </item>
+    
+    <item>
+      <title>¿Por qué la mayoría sigue usando Whatsapp si existe Telegram?</title>
+      <link>/post/telegram/</link>
+      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
+      
+      <guid>/post/telegram/</guid>
+      <description>Yo no tengo una respuesta para eso. Me imagino que la razón principal es que si la mayoría de tus contactos solo utilizan whatsapp como app de mensajería, tenés pocos incentivos a usar abandonarla. La falta de espacio en el celular para instalar una nueva aplicación podría ser otra razón pero Telegram[1] a diferencia de whatsapp se puede utilizar desde la computadora o tablet sin necesidad de tener la app instalada en el celular.</description>
     </item>
     
     <item>
@@ -51,15 +70,6 @@ contenido &amp;lt;- paste(sep = &amp;quot;&amp;lt;br/&amp;gt;&amp;quot;, paste0(
       <description>I have 10+ years of R programming experience: data analysis and data visualization. I also have worked I do statistical analysis with R and teaching R.
 My work experience consists of: Statistics analysis about economy and social information with a geospatial an approach, statistics Teaching assistant and R software teaching instructor. I am from Uruguay and now I am in Berlin. I am interested in sports, photography and travel.
 I am interested in sports, photography and travel.</description>
-    </item>
-    
-    <item>
-      <title>¿Por qué la mayoría sigue usando Whatsapp si existe Telegram?</title>
-      <link>/post/telegram/</link>
-      <pubDate>Wed, 13 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/post/telegram/</guid>
-      <description>Yo no tengo una respuesta para eso. Me imagino que la razón principal es que si la mayoría de tus contactos solo utilizan whatsapp como app de mensajería, tenés pocos incentivos a usar abandonarla. La falta de espacio en el celular para instalar una nueva aplicación podría ser otra razón pero Telegram[1] a diferencia de whatsapp se puede utilizar desde la computadora o tablet sin necesidad de tener la app instalada en el celular.</description>
     </item>
     
     <item>
