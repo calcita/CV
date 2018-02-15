@@ -5,23 +5,10 @@
     <link>/categories/r/</link>
     <description>Recent content in R on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 15 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 23 Sep 2017 21:13:14 -0500</lastBuildDate>
     
 	<atom:link href="/categories/r/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Add a pop-up with an image to a leaflet map in R  </title>
-      <link>/post/add-a-pop-up-with-an-image-to-a-leaflet-map-in-r/</link>
-      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/add-a-pop-up-with-an-image-to-a-leaflet-map-in-r/</guid>
-      <description>We need only two commands to get a leaflet-map:
- library(leaflet) map &amp;lt;- leaflet() %&amp;gt;% addTiles() %&amp;gt;% To center the map at a certain point:
-setView(-58.287691, -33.137864,, zoom=13) %&amp;gt;% To add information at a that point:
-addMarkers(-58.287691, -33.137864, popup=&amp;quot;Frigorífico Anglo&amp;quot;) And a picture and more details:
-contenido &amp;lt;- paste(sep = &amp;quot;&amp;lt;br/&amp;gt;&amp;quot;, paste0(&amp;quot;&amp;lt;img src=&amp;#39;https://upload.wikimedia.org/wikipedia/commons/b/b1/El_Frigor%C3%ADfico_ANGLO_en_acci%C3%B3n.jpg&amp;quot;, &amp;quot;&amp;#39; /&amp;gt;&amp;quot;), paste0(&amp;quot;&amp;lt;b&amp;gt;Name: &amp;lt;/b&amp;gt;&amp;quot;, &amp;quot;Frigorífico Anglo&amp;quot;), paste0(&amp;quot;&amp;lt;b&amp;gt;Place: &amp;lt;/b&amp;gt;&amp;quot;, &amp;quot;Fray Bentos, Uruguay&amp;quot;), paste0(&amp;quot;&amp;lt;a href=&amp;#39;https://en.</description>
-    </item>
     
     <item>
       <title>Add a pop-up with an image to a leaflet map in R</title>
