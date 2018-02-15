@@ -8,6 +8,11 @@
   </url>
   
   <url>
+    <loc>/post/add-a-pop-up-with-an-image-to-a-leaflet-map-in-r/</loc>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/me/</loc>
     <lastmod>2018-02-15T00:00:00+00:00</lastmod>
   </url>
@@ -93,13 +98,13 @@
   
   <url>
     <loc>/tags/leaflet/</loc>
-    <lastmod>2017-09-23T21:13:14-05:00</lastmod>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/tags/map/</loc>
-    <lastmod>2017-09-23T21:13:14-05:00</lastmod>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -110,13 +115,13 @@
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2017-09-23T21:13:14-05:00</lastmod>
+    <loc>/categories/r/</loc>
+    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2017-09-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>

@@ -1,0 +1,66 @@
+---
+title: 'Add a pop-up with an image to a leaflet map in R  '
+author: ''
+date: '2018-02-15'
+slug: add-a-pop-up-with-an-image-to-a-leaflet-map-in-r
+categories:
+  - R
+tags:
+  - leaflet
+  - map
+---
+
+We need only two commands to get a leaflet-map:
+
+```{r, eval = FALSE}
+ library(leaflet)
+
+ map <- leaflet() %>%
+        addTiles() %>%
+```
+
+To center the map at a certain point:
+
+```{r, eval = FALSE}
+setView(-58.287691, -33.137864,, zoom=13) %>%
+```
+
+To add information at a that point:
+
+```{r, eval = FALSE}
+addMarkers(-58.287691, -33.137864, popup="Frigorífico Anglo")
+```
+And a picture and more details:
+
+```{r, eval = FALSE}
+contenido <- paste(sep = "<br/>",
+               paste0("<img src='https://upload.wikimedia.org/wikipedia/commons/b/b1/El_Frigor%C3%ADfico_ANGLO_en_acci%C3%B3n.jpg", "' />"),
+               paste0("<b>Name: </b>", "Frigorífico Anglo"),
+               paste0("<b>Place: </b>", "Fray Bentos, Uruguay"),
+               paste0("<a href='https://en.wikipedia.org/wiki/Frigor%C3%ADfico_Anglo_del_Uruguay", "'>Link</a>"))
+
+addMarkers(-58.287691, -33.137864, popup=contenido)
+
+```
+
+
+```{r, echo = FALSE}
+
+library(leaflet)
+contenido <- paste(sep = "<br/>",
+               paste0("<img src='https://upload.wikimedia.org/wikipedia/commons/b/b1/El_Frigor%C3%ADfico_ANGLO_en_acci%C3%B3n.jpg", "' />"),
+               paste0("<b>Name: </b>", "Frigorífico Anglo"),
+               paste0("<b>Place: </b>", "Fray Bentos, Uruguay"),
+               paste0("<a href='https://en.wikipedia.org/wiki/Frigor%C3%ADfico_Anglo_del_Uruguay", "'>Link</a>"))
+
+leaflet() %>%
+  setView(-58.287691, -33.137864, zoom=13)%>%
+  addTiles() %>%
+  #fitbounds(0,40,10,50)
+  
+  addMarkers(-58.287691, -33.137864, popup=contenido)
+  #addPopups(-56.1778, -34.8853, popup=contenido,
+   #          options = popupOptions(closeButton = TRUE)
+  #)
+ 
+```
