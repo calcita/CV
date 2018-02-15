@@ -1,8 +1,8 @@
 baseurl = "http://gabrielamathieu.info/"
 title = "Gabriela Mathieu"
 # for smart copyright line, leave this blank and check [params.copyright]
-copyright = "images/cc-by-sa.png"
-logo="logo.png"
+#copyright = ""
+#logo="cc-by-sa.png" #"logo.png"
 theme = "minimo"
 
 #disqusShortname = "disqus_4K8SlMaMum"
@@ -30,10 +30,10 @@ customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
-#prefix = "Creative Commons"
-#holder = "CC-BY-SA"
-#startYear = ""
-#suffix = ""
+prefix = "El contenido de este blog está distribuido bajo licencia  [Creative Commons - Atribución - Compartir Igual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0)."
+holder = ""
+startYear = ""
+suffix = ""
 
 
 [params.settings]
