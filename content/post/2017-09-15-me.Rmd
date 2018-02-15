@@ -1,8 +1,8 @@
 ---
 title: 'About me '
 author: ''
-date: '2017-09-14'
-slug: about-me
+date: '2017-09-15'
+slug: me
 categories: []
 tags: []
 ---
@@ -34,4 +34,6 @@ Statistics Teaching assistant at Mathematical Methods Department.
 ### Teacher R software
 *Universidad de la República (Uruguay) - Montevideo, Uruguay*
 abril 2010 a noviembre 2014
+
+
 
