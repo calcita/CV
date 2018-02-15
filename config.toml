@@ -30,7 +30,7 @@ customJS = ["js/custom.js"]
 gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
-prefix = "El contenido de este blog está distribuido bajo licencia  [Creative Commons - Atribución - Compartir Igual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0)."
+prefix = "El contenido de este blog está distribuido bajo licencia  [Creative Commons - Atribución - Compartir Igual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0). Sos libre de copiar, distribuir y modificar estos contenidos, siempre y cuando las obras derivadas circulen con las mismas condiciones de esta licencia y hagas la correcta atribución a la autora."
 holder = ""
 startYear = ""
 suffix = ""
