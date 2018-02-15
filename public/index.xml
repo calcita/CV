@@ -65,15 +65,6 @@ I am interested in sports, photography and travel.</description>
     </item>
     
     <item>
-      <title></title>
-      <link>/post/observatorio_maqueta/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>/post/observatorio_maqueta/</guid>
-      <description>EFD Observatorio window.FlexDashboardComponents = [];                     /* Dashboard CSS from Keen IO Dashboards (https://github.com/keen/dashboards) */ body { background: #f2f2f2; padding: 60px 0 0 8px; /* padding-top overridden by theme */ } body hr { border-color: #d7d7d7; margin: 10px 0; } .navbar-inverse .navbar-nav  li  a, .navbar .navbar-brand { text-decoration: none; } .</description>
-    </item>
-    
-    <item>
       <title>About me</title>
       <link>/about/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
