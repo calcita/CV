@@ -93,8 +93,8 @@ page = "/:slug/"
 [[menu.main]]
 name = "About me"
 weight = -10
-identifier = "about-me"
-url = "/post/about/"
+identifier = ""
+url = "/post/about"
 
 [blackfriday]
 hrefTargetBlank = true
