@@ -13,11 +13,6 @@
   </url>
   
   <url>
-    <loc>/post/navegar-por-internet-de-forma-an%C3%B3nima/</loc>
-    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/post/telegram/</loc>
     <lastmod>2017-12-13T00:00:00+00:00</lastmod>
   </url>
@@ -37,12 +32,19 @@
   </url>
   
   <url>
+    <loc>/categories/app/</loc>
+    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/authors/</loc>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>/categories/</loc>
+    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -103,6 +105,12 @@
   <url>
     <loc>/tags/</loc>
     <lastmod>2018-02-14T00:00:00+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>/tags/telegram/</loc>
+    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
     <priority>0</priority>
   </url>
   
