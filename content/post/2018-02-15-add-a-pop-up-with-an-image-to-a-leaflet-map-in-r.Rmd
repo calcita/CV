@@ -3,11 +3,8 @@ title: 'Add a pop-up with an image to a leaflet map in R  '
 author: ''
 date: '2018-02-15'
 slug: add-a-pop-up-with-an-image-to-a-leaflet-map-in-r
-categories:
-  - R
-tags:
-  - leaflet
-  - map
+categories: [R]
+tags:[leaflet, map]
 ---
 
 We need only two commands to get a leaflet-map:
