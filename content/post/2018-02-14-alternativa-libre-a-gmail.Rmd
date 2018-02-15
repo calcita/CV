@@ -7,22 +7,22 @@ categories: [software-libre]
 tags: [email]
 ---
 
-Hace más de un año atrás empecé a recibir viajerxs en mi casa y lo que me llamó la atención es que varixs usaban una cuenta de correo GMX -está muy extendido su uso en países como Alemania[^1] y Austria-. Empecé a buscar información sobre GMX -Global Mail Exchange- y me decanté a empezar a usarlo -ya había probado otras alternativas a gmail sin convencerme del todo, por ejemplo, [openmailbox](https://www.openmailbox.org/), aunque lo seguiré esperando ya que está hecho con software libre-. Luego de más de un año de experiencia puedo darles mi punto de vista sobre GMX:
+Hace más de un año atrás empecé a recibir viajerxs en mi casa y lo que me llamó la atención es que varixs usaban una cuenta de correo GMX -está muy extendido su uso en países como Alemania[^1] y Austria-. Empecé a buscar información sobre GMX -Global Mail Exchange- y me decidí a empezar a usarlo -ya había probado otras alternativas a gmail sin convencerme del todo, por ejemplo, [openmailbox](https://www.openmailbox.org/), aunque lo seguiré esperando ya que está hecho con software libre-. Luego de más de un año de experiencia puedo darles mi punto de vista sobre GMX:
 
 ### Ventajas
 - Es un servicio de webmail gratuito
-- Alojamiento ilimitado de mensajes. Me descargé miles de mails desde mi casilla de Gmail; lo recomiendo!
-- Posibilidad de generar cuentas alias y todas fluyen en la misma cuenta principal. Pueden incluso ser diferentes: gmx.com, gmx.it, gmx.net, etc.
+- Alojamiento ilimitado de mensajes. Sí, ¡ilimitado!
+- Posibilidad de generar cuentas alias y todas funcionan en la misma cuenta principal sin necesidad de configurar nada. Pueden incluso ser diferentes: gmx.com, gmx.it, gmx.net, etc.
 - Utiliza la interfaz libre Qooxdoo, la cual es además sencilla y amigable.
-- Accesible a través de APP para el teléfono celular
-- Además de la casilla de correo ofrece una libreta de direcciones, un organizador -calendario- y 50 MB de almacenamiento de archivos.
-- Es posible descargar e-mails de otras cuentas diferentes a gmx.
+- Accesible a través de APP para el teléfono celular.
+- Además de la casilla de correo, ofrece una libreta de direcciones, un organizador -calendario- y 50 MB de almacenamiento de archivos.
+- Es posible descargar e-mails de otras cuentas diferentes a Gmx, por ejemplo gmail.
 - El sistema anti-spam funciona muy bien.
 - Se puede transferir un archivo de hasta 50 MB.
 
 
 ### Desventajas
-- No es posible editar archivos desde el File Storage pues no es un gestor de archivos, solo almacena.
+- No es posible editar archivos desde el File Storage, solo almacena.
 - No agrupa los mensajes por conversaciones pero si las respuestas incluyen los correos anteriores. 
 
 
