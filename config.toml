@@ -94,7 +94,7 @@ page = "/:slug/"
 name = "About me"
 weight = -10
 identifier = "about-me"
-url = "/post/about-me/"
+url = "/post/about/"
 
 [blackfriday]
 hrefTargetBlank = true
