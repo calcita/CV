@@ -13,6 +13,11 @@
   </url>
   
   <url>
+    <loc>/post/telegram/</loc>
+    <lastmod>2018-02-13T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/post/por-qu%C3%A9-la-mayor%C3%ADa-sigue-usando-whatsapp-si-existe-telegram/</loc>
     <lastmod>2017-12-19T00:00:00+00:00</lastmod>
   </url>
@@ -85,13 +90,13 @@
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
+    <loc>/categories/r/</loc>
     <lastmod>2017-09-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
+    <loc>/tags/r/</loc>
     <lastmod>2017-09-23T21:13:14-05:00</lastmod>
     <priority>0</priority>
   </url>
