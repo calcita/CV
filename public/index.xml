@@ -57,9 +57,9 @@ contenido &amp;lt;- paste(sep = &amp;quot;&amp;lt;br/&amp;gt;&amp;quot;, paste0(
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>/post/me/</guid>
-      <description>I have 10+ years of R programming experience: data analysis and data visualization. I also have worked I do statistical analysis with R and teaching R.
-My work experience consists of: Statistics analysis about economy and social information with a geospatial an approach, statistics Teaching assistant and R software teaching instructor. I am from Uruguay and now I am in Berlin. I am interested in sports, photography and travel.
-I am interested in sports, photography and travel.</description>
+      <description>I have 10+ years of R programming experience: data analysis and visualization, statistical analysis and also teaching.
+My work experience includes: Statistical analysis of economy and social information with a geospatial approach, Teaching Assistant in Statistics and R software Teaching Instructor. I am from Uruguay and I am living in Montevideo.
+I am interested in sports, photography and travelling. I conjugated my love for R and travel on my travel blog made completely in R.</description>
     </item>
     
     <item>
