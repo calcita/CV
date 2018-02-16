@@ -21,19 +21,19 @@ I am interested in sports, photography and travel. I conjugated my love for R an
 
 ### Statistics analysis
 *Ministerio de Desarrollo Social - Montevideo, Uruguay*
-junio 2005 a mayo 2017
+since 2005
 
 Statistics analysis about economy and social information with a geospatial
 an approach using R and LaTeX.
 
 ### Teaching Assistant
 *Universidad de la República (Uruguay) - Montevideo, Uruguay*
-marzo 2009 a mayo 2015
+2009-2015
 Statistics Teaching assistant at Mathematical Methods Department. 
 
 ### Teacher R software
 *Universidad de la República (Uruguay) - Montevideo, Uruguay*
-abril 2010 a noviembre 2014
+2010-2014
 
 
 
