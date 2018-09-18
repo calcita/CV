@@ -1,0 +1,17 @@
+base
+icon
+ggplot2
+plotly
+extrafont
+dplyr
+ggflags
+ggrepel
+bindrcpp
+DT
+htmlwidgets
+htmltools
+leaflet
+leaflet.extras
+sp
+rgdal
+widgetframe

@@ -1,0 +1,31 @@
+id,Nombre_senador1,Apellido_senador1,Nombre_suplente1,Apellido_suplente1,Nombre_suplente2,Apellido_suplente2,Nombre_suplente3,Apellido_suplente3,Sistema,Partido,sexo_senador,sexo_suplente1,sexo_suplente2,sexo_suplente3
+1,Jose,Mujica,Andres,Berterreche,Marcos,Carámbula,Sandra,Lazo,Respectivos,Frente Amplio,hombre,hombre,hombre,mujer
+2,Lucia,Topolansky,Ruben,Martinez Huelmo,Charles,Carrera,Lucia,Etcheverry,Respectivos,Frente Amplio,mujer,hombre,hombre,mujer
+3,Eduardo,Bonomi,Ivonne,Passada,Gonzalo,Mujica,Zulimar,Ferreira,Respectivos,Frente Amplio,hombre,mujer,hombre,hombre
+4,Ernesto,Agazzi,Francisco,Beltrame,Daniel,Garin,Susana,Pereyra,Respectivos,Frente Amplio,hombre,hombre,hombre,mujer
+5,Luis,Almagro,Ruben,Martinez Huelmo,Lauro,Meléndez,Graciela,García,Respectivos,Frente Amplio,hombre,hombre,hombre,mujer
+6,Patricia,Ayala,Julio,Baraibar,Ricardo,Alcorta,Lilián,Galan,Respectivos,Frente Amplio,mujer,hombre,hombre,mujer
+7,Raúl,Sendic,Marcos,Otheguy,Cristina,Lustemberg,Saúl,Aristimuño,Respectivos,Frente Amplio,hombre,hombre,mujer,hombre
+8,Leonardo,De León,Julio,Calzada,Beatriz,Ramirez,Felipe,Carballo,Respectivos,Frente Amplio,hombre,hombre,mujer,hombre
+9,Marcos,Carámbula,Juan,Castillo,Eduardo,Lorier,Michelle,Suarez,Respectivos,Frente Amplio,hombre,hombre,hombre,mujer
+10,Danilo,Astori,Enrique,Pintado,Carlos,Baraibar,Maria Sara,Ribero,Respectivos,Frente Amplio,hombre,hombre,hombre,mujer
+11,Rafael,Michelini,Felipe,Michelini,Antonio,Gallicchio,Elizabeth,Villalba,Respectivos,Frente Amplio,hombre,hombre,hombre,mujer
+12,Daniela,Paysee,Miguel,Vassallo,Eva,Gomori,Juan,Ripoll,Respectivos,Frente Amplio,mujer,hombre,mujer,hombre
+13,Daniel,Martinez,Yerú,Pardiñas,Eduardo,Fernández,Maria Elena,Laurnaga,Mixto,Frente Amplio,hombre,hombre,hombre,mujer
+14,Monica,Xavier,Daniel,Olesker,Julio,Bango,Viviana,Piñeiro,Mixto,Frente Amplio,mujer,hombre,hombre,mujer
+15,Constanza,Moreira,Rafael,Paternain,Virginia,Cardozo,Federico,Preve,Respectivos,Frente Amplio,mujer,hombre,mujer,hombre
+16,Luis,Lacalle Pou,Jorge,Saravia,Armando,Castaingdeba,Beatriz,Argimón,Respectivos,Partido Nacional,hombre,hombre,hombre,mujer
+17,Carlos,Enciso,Jose Carlos,Cardoso,Jorge,Saravia,Fanny,Trilesinsky,Respectivos,Partido Nacional,hombre,hombre,hombre,mujer
+18,Graciela,Bianchi,Álvaro,Delgado,Alejandro,Drapper,Mercedes,Antía,Respectivos,Partido Nacional,mujer,hombre,hombre,mujer
+19,Javier,García,Sebastian,Da Silva,Martín,Laventure,Cristina,Reyes,Respectivos,Partido Nacional,hombre,hombre,hombre,mujer
+20,Luis Alberto,Heber,Julio,Silveira,Jaime,Trobo,Alexandra,Inzaurralde,Respectivos,Partido Nacional,hombre,hombre,hombre,mujer
+21,Carol,Aviaga,José Luis,Falero,Carmen,Asiaín,Arturo,Heber,Respectivos,Partido Nacional,mujer,hombre,mujer,hombre
+22,Jorge,Larrañaga,Eber,Da Rosa,Jorge,Gandini,Ana Lía,Piñeyrúa,Respectivos,Partido Nacional,hombre,hombre,hombre,mujer
+23,Carlos,Moreira,Guillermo,Besozzi,Omar,Lafluf,Adriana,Peña,Respectivos,Partido Nacional,hombre,hombre,hombre,mujer
+24,Verónica,Alonso,Daniel,Peña,Daniel,López Villalba,Daniella,Pena,Respectivos,Partido Nacional,mujer,hombre,hombre,mujer
+25,Sergio,Botana,Carlos,Camy,Pablo,Iturralde,Maria Dolores,Álvarez,Respectivos,Partido Nacional,hombre,hombre,hombre,mujer
+26,Pedro,Bordaberry,Cecilia,Eguiluz,Guillermo,Facello,Juan Manuel,Garino,Respectivos,Partido Colorado,hombre,mujer,hombre,hombre
+27,Germán,Coutinho,José,Amy,Gustavo,Cersósimo,Vivian,Pesce,Respectivos,Partido Colorado,hombre,hombre,hombre,mujer
+28,Martha,Montaner,Daniel,Bianchi,Graciela,Matiaude,Roberto,Yavarone,Respectivos,Partido Colorado,mujer,hombre,mujer,hombre
+29,José,Amorín,Tabaré,Viera,Walkiria,Olano,Alberto,Iglesias,Preferencial,Partido Colorado,hombre,hombre,mujer,hombre
+30,Pablo,Mieres,Iván,Posada,Conrado,Ramos,Cecilia,Zaffaroni,Respectivos,Partido Independiente,hombre,hombre,hombre,mujer
