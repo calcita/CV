@@ -4,7 +4,7 @@ author: ''
 date: '2018-05-02'
 slug: mujeres-en-política
 categories: []
-tags: []
+tags: [R gender]
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache=TRUE)
@@ -119,7 +119,7 @@ p <- parlamento[parlamento$country %in% countries & parlamento$year!=1997, ]
 p <- p %>% arrange(year,desc(porc_baja))
 #p <- p[p$country %in% c("Argentina", "Bolivia","Brazil","Chile", "United States of America" ,"Sweden","Uruguay"),]
 
-p$nombre <- as.character(p$nombre.x)
+p$nombre <- as.character(p$nombre)
 n=length(countries)
 ###with flags
 primeros <- tolower(p$cod2[1:n])
