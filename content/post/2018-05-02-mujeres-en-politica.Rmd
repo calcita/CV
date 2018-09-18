@@ -4,7 +4,7 @@ author: ''
 date: '2018-05-02'
 slug: mujeres-en-política
 categories: []
-tags: []
+tags: [R gender]
 ---
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(cache=TRUE)
