@@ -5,10 +5,29 @@
     <link>/</link>
     <description>Recent content on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Fri, 18 May 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>LatinR 2018</title>
+      <link>/post/latinr-2018/</link>
+      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/latinr-2018/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>RLadies Montevideo</title>
+      <link>/post/rladies-montevideo/</link>
+      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/rladies-montevideo/</guid>
+      <description>Para cerrar agosto participé del primer meetup de @RLadiesMVD donde presenté esta aplicación shiny que estoy desarrollando: Cartografía Digital de Feminicidios. La presentación la podés descargar aquí y abrir el html en un navegador para poder ver los efectos.
+Fue un interesante encuentro para conocer a otras RLadies y escuchar las presentaciones de Elina Gómez y Silvana Fumega.</description>
+    </item>
     
     <item>
       <title>Mujeres en el parlamento</title>
@@ -16,16 +35,6 @@
       <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/post/mujeres-en-el-parlamento/</guid>
-      <description>--  Fuente: Elaboración propia en base a datos de la Unión Interparlamentaria (IPU).. Ver aplicación.
-Mujeres en el parlamento A nivel mundial Uruguay ocupa el puesto 97° del ranking que mide el porcentaje de mujeres en el parlamento (PMP), es decir, en Cámara Baja y Cámara Alta -o Cámara Única-. En particular, de las 99 bancas de la Cámara de Diputadxs, solo 20 están ocupadas por mujeres, es decir, un 20,2%.</description>
-    </item>
-    
-    <item>
-      <title>Mujeres en política</title>
-      <link>/post/mujeres-en-pol%C3%ADtica/</link>
-      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/post/mujeres-en-pol%C3%ADtica/</guid>
       <description>--  Fuente: Elaboración propia en base a datos de la Unión Interparlamentaria (IPU).. Ver aplicación.
 Mujeres en el parlamento A nivel mundial Uruguay ocupa el puesto 97° del ranking que mide el porcentaje de mujeres en el parlamento (PMP), es decir, en Cámara Baja y Cámara Alta -o Cámara Única-. En particular, de las 99 bancas de la Cámara de Diputadxs, solo 20 están ocupadas por mujeres, es decir, un 20,2%.</description>
     </item>
