@@ -1,0 +1,121 @@
+---
+title: Mujeres en el parlamento
+author: ''
+date: '2018-05-18'
+slug: mujeres-en-el-parlamento
+categories: []
+tags: ["R","gender", "map", "leaflet", "ggplot2"]
+authors: []
+---
+
+
+
+<!-- <iframe src="https://calcita.shinyapps.io/women_in_politics/" width="1000" height="575"></iframe> -->
+<iframe seamless src="../mapamundo/index.html" width="100%" height="500">
+</iframe>
+<p>Fuente: Elaboración propia en base a datos de la <a href="http://archive.ipu.org/english/home.htm">Unión Interparlamentaria (IPU).</a>. Ver <a href="https://calcita.shinyapps.io/women_in_politics/">aplicación</a>.</p>
+<div id="mujeres-en-el-parlamento" class="section level2">
+<h2>Mujeres en el parlamento</h2>
+<p>A nivel mundial Uruguay ocupa el puesto 97° del ranking que mide el <em>porcentaje de mujeres en el parlamento</em> (PMP), es decir, en Cámara Baja y Cámara Alta -o Cámara Única-. En particular, de las 99 bancas de la Cámara de Diputadxs, solo 20 están ocupadas por mujeres, es decir, un 20,2%. En la Cámara de Senadorxs, la cifra es un poco mayor y asciende al 29%. Si bien la situación actual de Uruguay en cuanto a la baja representación de mujeres es preocupante en el contexto mundial, también lo es en términos regionales. Uruguay solo supera a Brasil, Paraguay y Colombia en PMP, y está lejos de los guarismos que alcanzan Ecuador (38% Cámara Única), Argentina (38,9% Cámara Baja y 41,7% Cámara Alta) o Bolivia (53,1% Cámara Baja y 47,2% Cámara Alta).</p>
+<p><img src="/post/2018-05-18-mujeres-en-el-parlamento_files/figure-html/unnamed-chunk-3-1.png" width="672" /> Fuente: Elaboración propia en base a datos de la <a href="http://archive.ipu.org/english/home.htm">Unión Interparlamentaria (IPU).</a></p>
+</div>
+<div id="la-ley-de-cuotas-en-uruguay" class="section level2">
+<h2>La ley de cuotas en Uruguay</h2>
+<p>En 1988 fue la primera vez que se presentó un proyecto de ley que promovía una mínima representación de mujeres en el parlamento. Pasaron 21 años para que se apruebe en 2009 una ley de cuotas, con la promulgación de la <a href="https://oig.cepal.org/sites/default/files/2009_ley18476_ury.pdf">Ley N° 18476</a> que aplicó una <em>cuota femenina</em> en las elecciones internas de ese año pero que rigió para las elecciones nacionales y departamentales recién para los años 2014 y 2015, respectivamente. Esta Ley supone que para las elecciones nacionales, departamentales y municipales, cada lista de candidatxs a la Cámara de Senadores, a la Cámara de Representantes, a las Juntas Departamentales, a los Municipios y a las Juntas Electorales, la obligatoriedad de incluir a personas de ambos sexos en cada terna (tres lugares sucesivos) de titulares y suplentes. Así, podrá haber una mujer y dos hombres cada tres candidatos, o dos mujeres y un hombre en cada terna.</p>
+</div>
+<div id="efecto-de-la-ley-de-cuotas-en-el-parlamento" class="section level2">
+<h2>Efecto de la ley de cuotas en el parlamento</h2>
+<p>Para observar el impacto de la ley de cuotas en las últimas elecciones, es necesario comparar con la situación sin dicha ley. En la Cámara de Diputadxs no se observan cambios significativos entre la elección de 2009 y la de 2014. Sin embargo, sí se produjo un salto cualitativo en la representación de mujeres en el Senado entre la elección de 2009 - sin sistema de cuotas- donde apenas 1 de cada 10 bancas eran ocupadas por mujeres y la de 2014 - con sistema de cuotas- donde 1 de cada 3 de cada 10 pasaron a ocuparse por mujeres. Claramente, la ley de cuotas no tuvo efectos en la representación de mujeres en la Cámara de Diputadxs pero sí lo tuvo en la Cámara de Senadorxs. ¿Por qué tuvo estos efectos dispares?</p>
+<!-- Aún prevalencen discursos, tanto de hombres como mujeres que suponen que existe la igualdad de oportunidades para todas las personas independientemente de su identidad de género, etnia/raza, etc. y no entiende este tipo de leyes como políticas de acción afirmativa para romper con las barreras que desde siempre han encontrado las mujeres -independientemente de su idoneidad- a hacerse un camino en la política partidaria. -->
+<!-- Es amplia la literatura que respalda que esto no se debe a falta de capacidad o interés. La razón es que el acceso a la esfera política, tradicionalmente dominada por los hombres, se ve dificultado por barreras discriminatorias prácticas y simbólicas, que no permiten que un mayor número de mujeres logre ingresar y permanecer en cargos electivos. -->
+</div>
+<div id="hecha-la-ley-hecha-la-trampa" class="section level2">
+<h2>Hecha la ley, hecha la trampa</h2>
+<p>El porqué de que el sistema de cuotas implementado en las pasadas elecciones no tuvo los resultados esperados fue ampliamante estudiado por Niki Johnson <a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>, quien plantea:</p>
+<blockquote>
+<p>‘Lo que determina los bajos porcentajes de mujeres electas es el hecho de que las candidatas generalmente no se ubican en lugares seguros de las listas. Esto implica que <strong>la causa directa de la exclusión de las mujeres debe buscarse en los procedimientos utilizados por los sectores partidarios para armar sus listas de candidatos</strong>’.</p>
+</blockquote>
+<p>Pero dado esto, lo que reduce las chances de las mujeres ser electas es la elección de su partido de en qué lugar colocarlas en la lista:</p>
+<blockquote>
+<p>‘No obstante, las magnitudes pequeñas de distrito y los índices altos de fraccionalización no excluyen de por sí a las mujeres. Lo que hacen estas características político-institucionales es reducir la cantidad de lugares seguros o competitivos en las listas electorales’.</p>
+</blockquote>
+<!-- > 'Cuando se comparan las tasas de representación femenina resultantes de las últimas elecciones sin cuota y las primeras con cuota, se advierte el impacto restringido que tuvo la ley. Solo en el Senado y en las Convenciones Nacionales se aumentó por más de 10 puntos porcentuales la presencia de mujeres, mientras que en los distritos chicos del Interior de la Cámara de Representantes no tuvo ningún impacto y en los cargos uninominales (intendencias y alcaldías) de hecho se registró un retroceso en la tasa de mujeres electas'. -->
+<p>Como se puede observar en el siguiente gráfico, que da cuenta de lxs Senadorxs/Diputadxs electxs y sus respectivxs Suplentes, es que en el Interior del país -excluyendo Canelones- las mujeres casi no encabezaron lista en la Cámara de Representantes. Mientras que las mujeres ocuparon en la terna de Suplentes, mayormente el tercer lugar y en muy pocos casos el primero. Este patrón se cumplió para todos los partidos en las listas de ambas Cámaras.</p>
+<pre><code>## 
+## Attaching package: &#39;plotly&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:ggplot2&#39;:
+## 
+##     last_plot</code></pre>
+<pre><code>## The following object is masked from &#39;package:stats&#39;:
+## 
+##     filter</code></pre>
+<pre><code>## The following object is masked from &#39;package:graphics&#39;:
+## 
+##     layout</code></pre>
+<iframe seamless src="../ploto/index.html" width="100%" height="700">
+</iframe>
+<p>Si observamos dónde se concentran más las mujeres electas en la Cámara de Senadorxs, es en el lugar de tercera suplente, donde el 70% son mujeres. Si una senadora electa renuncia la sucederá un hombre porque en ningún caso como primera suplente de una senadora hay una mujer. Mientras que en la Cámara Baja, vemos que la mayor representación de mujeres está en las bancas de _segundas Suplentes__ (49%), y de terceras Suplentes (36%). El 82% de los lugares de primerx suplente de una diputada lo ocupa un hombre, mientras que apenas el 27% de los lugares de primerx suplente de un diputado lo ocupa una mujer. <!-- Cada 2 Senadores hay 1 Senadora y cada 2 terceras Suplentes hay un solo tercer Suplente. --></p>
+<p><img src="/post/2018-05-18-mujeres-en-el-parlamento_files/figure-html/unnamed-chunk-7-1.png" width="672" /> Fuente: Elaboración propia en base a datos de la <a href="http://www.corteelectoral.gub.uy/gxpsites/page.aspx?3,26,453,O,S,0,">Corte Electoral</a></p>
+<!-- Si analizamos quiénes son lxs primerxs suplentes de un diputado y de una diputada respectivamente, vemos que para los hombres en el .....% de los casos, su primerx suplente es otro hombre. Pero para las mujeres en la mayoría de los casos, su primerx suplente es un hombre. -->
+</div>
+<div id="donde-esta-la-pelota-de-la-paridad" class="section level2">
+<h2>¿Dónde está la pelota de la paridad?</h2>
+<p>No alcanzaron 30 años de discusión parlamentaria para lograr una ley de cuotas paritaria, y estos resultados muestran que la ley que existe actualmente no es suficiente para lograr una mayor representación de las mujeres en el parlamento. ¿Hasta que punto los partidos pueden cumplir la ley a regañadientes al momento de la conformación de las listas? ¿Esta ley supone un piso o más bien un techo para la efectiva participación de las mujeres?</p>
+<!-- 'Pero hecha la ley hecha la trampa' https://ladiaria.com.uy/articulo/2012/3/en-comodas-cuotas/ -->
+<!-- Durante el primer gobierno democrático posdictadura no hubo ninguna diputada ni senadora.  -->
+<!-- Aunque lejos del anhelado horizonte de la paridad, la legislatura actual –la séptima desde entonces– cuenta con la mayor cantidad de parlamentarias de la historia,1 un mérito que puede atribuirse a la Red de Mujeres Políticas.  -->
+<!-- "No nos gustan las cuotas", afirmó la nacionalista Elizabeth Arrieta. "Y mucho menos que nos regalen nada. Hemos sabido las mujeres abrirnos camino solas", añadió. "No se trata de una lucha de mujeres contra hombres, ni de mujeres que quieren desplazar a hombres. Hemos procurado aportar a la igualdad de oportunidades", aclaró. -->
+<!-- http://www.lr21.com.uy/politica/1348166-ley-cuotas-parlamento-equidad-representacion-femenina -->
+<!-- https://www.elpais.com.uy/informacion/diputados-sanciono-ley-equidad-genero.html -->
+<!-- "La ley de cuotas aprobada en abril 2009 por el Parlamento estableció la obligatoriedad para los partidos políticos de incluir a candidatos de ambos sexos en cada terna de sus listas de candidatos titulares y suplentes en las elecciones internas, nacionales y departamentales, y en las elecciones de segundo grado a efectos de integrar los respectivos órganos de dirección partidaria." Pero las cuotas para las elecciones nacionales y departamentales solo se aplicaría en el ciclo electoral 2014/2015.  -->
+<!-- "En las circunscripciones binominales de la Cámara de Representantes los dos titulares -->
+<!-- debían ser de diferente sexo. La ley también dispuso que las autoridades -->
+<!-- electorales negarían el registro de las hojas de votación que no cumplieran con -->
+<!-- las disposiciones de la ley (art. 3)..."" -->
+<!-- "La aplicación de la cuota tuvo un impacto significativo únicamente en las -->
+<!-- Convenciones Nacionales partidarias (estructuras bastante irrelevantes en -->
+<!-- el quehacer político cotidiano), el Senado y las Juntas Departamentales. -->
+<!--  La experiencia delas Convenciones Nacionales (único ámbito con más de -->
+<!-- una aplicación de la cuota) indica que la cuota se convierte en un techo -->
+<!-- máximo para la representación de las mujeres, en vez de operar como un -->
+<!-- piso mínimo." Niki Johnson -->
+<p>Johnson lo plantea claramente:</p>
+<blockquote>
+<p>‘Entonces, las mayores trabas para una representación política igualitaria de mujeres y hombres deben buscarse en la arquitectura del sistema electoral, y en los procesos institucionales y prácticas políticas discriminatorios y excluyentes que siguen caracterizando la política uruguaya y especialmente pautando el acceso a los cargos de representación política.La experiencia del último ciclo electoral demuestra que estos obstáculos no son fáciles de superar’.</p>
+</blockquote>
+<p>Por lo tanto, una mayor participación de las mujeres en el parlamento estará supeditada en primera instancia a cómo los partidos políticos conformen sus listas, sería deseable que de una vez por todas tenga en cuenta el criterio de paridad.</p>
+<!-- Si se desagregan las tasas de representación femenina a nivel nacional y -->
+<!-- subnacional por magnitud de distrito para el período anterior a la cuota (Gráfico -->
+<!-- 5) se observa que las mujeres generalmente han logrado una mayor presencia -->
+<!-- en los distritos más grandes – el distrito deMontevideo en la Cámara de -->
+<!-- Representantes, las Juntas Departamentales y el Senado. Aunque los distritos -->
+<!-- más pequeños del Interior son bi- o plurinominales, la cantidad limitada de -->
+<!-- bancas en disputa hace que solamente el primer lugar de la lista tenga alguna -->
+<!-- chance real de ser electo. En las elecciones de 2009 el 90,7% de los candidatos -->
+<!-- “cabeza de lista” de las listas ganadoras eran hombres; en 2014 el 88,4% lo eran -->
+<!-- (Johnson 2015b -->
+<!-- "La ley -->
+<!-- de cuotas finalmente fue aprobada más de veinte años después de que se -->
+<!-- presentara el primer proyecto y luego de repetidos intentos de parte de las -->
+<!-- mujeres políticas organizadas (en espacios internos partidarios y coordinaciones -->
+<!-- interpartidarias) y del movimiento feminista de lograr que la dirigencia partidaria -->
+<!-- masculina reflexionara sobre el tema y tomara medidas para asegurar la -->
+<!-- efectivización del derecho de las mujeres a ser elegidas a la par de los -->
+<!-- hombres(ver el Cuadro 12)...la aprobación de la ley de cuota en Uruguay también llegó mucho después que otros países latinoaméricanos aprobaran leyes iguales" -->
+<!-- Documentación sobre las diferentes leyes discutidas en estos años https://www.scribd.com/document/341981404/Proyecto-Cuota-Femenina-2017#download&from_embed -->
+<!-- La ley aprobada implica una extensión de la votada en 2009, ya que esta vez le da carácter indefinido en el tiempo al sistema utilizado en octubre de 2014 y mayo de 2015. La Cámara de Senadores había aprobado el texto por unanimidad el pasado 15 de marzo. El 18 de octubre la Cámara de Diputadxs aprobó el proyecto de ley de cuotas que dispone que uno de cada tres lugares en las listas para cargos electivos sean ocupados por mujeres de ahora en adelante y sin fecha de caducidad. Esto supone una extensión de la ley votada en el 2009. -->
+<!-- Por una decisión del Plenario del Frente Amplio, las listas a las próximas elecciones estarán integradas por la mitad de hombres y de mujeres. -->
+<!-- ¿Esta decisión también se aplicará para la fórmula presidencial para el 2019? -->
+<!-- ## Hecha la ley, hecha la trampa -->
+<!-- dfsdf sdfdsfsdfsdfsf -->
+<!-- You can also embed plots, for example: -->
+<div id="referencias" class="section level3">
+<h3>Referencias</h3>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Johnson, Niki (2016). “Diagnóstico prospectivo en brechas de género y su impacto en el desarrollo Participación y representación política”. Oficina de Planeamiento y Presupuesto.<a href="#fnref1">↩</a></p></li>
+</ol>
+</div>

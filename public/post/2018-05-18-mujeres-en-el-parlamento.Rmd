@@ -1,0 +1,501 @@
+---
+title: Mujeres en el parlamento
+author: ''
+date: '2018-05-18'
+slug: mujeres-en-el-parlamento
+categories: []
+tags: ["R","gender", "map", "leaflet", "ggplot2"]
+authors: []
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(cache=TRUE)
+```
+
+<!-- <iframe src="https://calcita.shinyapps.io/women_in_politics/" width="1000" height="575"></iframe> -->
+
+
+
+```{r, message=FALSE, warning=FALSE, include=FALSE}
+library(htmlwidgets)
+library(htmltools)
+library(dplyr)
+library(leaflet)
+library(leaflet.extras)
+
+
+load("dip.Rdata")
+load("parlamento.baja.Rdata")
+load("parlamento.alta.Rdata")
+load("mundo.baja.Rdata")
+load("mundo.alta.Rdata")
+load("puntos.Rdata")
+
+      colores <- colorFactor(c("#66c2a4","#41ae76","#006d2c","#00441b","grey", "#e5f5f9"), domain = levels(mundo.alta$`2018.y`))#
+      
+
+   mapa.mep <- leaflet() %>%  
+        #addTiles() %>% 
+        setView(-12.13, 28.40, zoom=2)%>%
+        #addProviderTiles("OpenStreetMap.Mapnik") %>%
+        #addProviderTiles(providers$OpenTopoMap, options = providerTileOptions(noWrap = TRUE)) %>% #Stamen.TonerLite
+        #addProviderTiles("CartoDB.Positron") %>% 
+        addPolygons(data = mundo.baja, group = "2018: Cámara Baja", #[is.na(mundo.baja$`2018.y`)==F,]
+                    stroke = TRUE,  smoothFactor = 0.2, fillOpacity = 0.8, weight=0.3,
+                    fillColor = ~colores(mundo.baja$`2018.y`), color="#023858",
+                    popup = ifelse(mundo.baja$`2018.x`=="Sin dato",paste(mundo.baja$nombre, "<br>",
+                                  mundo.baja$`2018.x`, "<br>"), paste(mundo.baja$nombre, "<br>",paste0(mundo.baja$`2018.x`, "%"))),
+                    popupOptions = popupOptions(maxWidth ="100%", closeOnClick = TRUE)) %>%
+        
+        addPolygons(data = mundo.alta, group = "2018: Cámara Alta",
+                    stroke = TRUE,  smoothFactor = 0.2, fillOpacity = 0.8, weight=0.3,
+                    fillColor = ~colores(mundo.alta$`2018.y`), color="#023858",
+                    popup = ifelse(mundo.alta$`2018.x`=="Sin dato",paste(mundo.alta$nombre, "<br>", mundo.alta$`2018.x`, "<br>"),
+                                   ifelse(mundo.alta$`2018.x`=="No aplica", paste(mundo.alta$nombre, "<br>",paste0("(",mundo.alta$`2018.x`,")")),
+                                   paste(mundo.alta$nombre, "<br>",paste0(mundo.alta$`2018.x`, "%")))),
+                    popupOptions = popupOptions(maxWidth ="100%", closeOnClick = TRUE)) %>%
+        
+        addPolygons(data = mundo.baja, group = "2000: Cámara Baja",
+                    stroke = TRUE,  smoothFactor = 0.2, fillOpacity = 0.8, weight=0.3,
+                    fillColor = ~colores(mundo.baja$`2000.y`), color="#023858",
+                    popup = ifelse(mundo.baja$`2000.x`=="Sin dato",paste(mundo.baja$nombre, "<br>",
+                            paste0("(",mundo.baja$`2000.x`,")"), "<br>"), paste(mundo.baja$nombre, "<br>",paste0(mundo.baja$`2000.x`, "%"))),
+                    popupOptions = popupOptions(maxWidth ="100%", closeOnClick = TRUE)) %>%
+        
+        addPolygons(data = mundo.alta, group = "2000: Cámara Alta",
+                    stroke = TRUE,  smoothFactor = 0.2, fillOpacity = 0.8, weight=0.3, opacity=0.5,
+                    fillColor = ~colores(mundo.alta$`2000.y`), color="#023858",
+                    popup = ifelse(mundo.alta$`2000.x`=="Sin dato",paste(mundo.alta$nombre, "<br>", mundo.alta$`2000.x`, "<br>"),
+                                   ifelse(mundo.alta$`2000.x`=="No aplica", paste(mundo.alta$nombre, "<br>",paste0("(",mundo.alta$`2000.x`,")")),
+                                          paste(mundo.alta$nombre, "<br>",paste0(mundo.alta$`2000.x`, "%")))),
+                    popupOptions = popupOptions(maxWidth ="100%", closeOnClick = TRUE)) %>%
+        addLayersControl(baseGroups = c("2018: Cámara Baja","2018: Cámara Alta", "2000: Cámara Baja", "2000: Cámara Alta")) %>%
+        # addLegend(position = "bottomright", pal = conpal, values = mydf$value,
+        #           title = "UK value",
+        #           opacity = 0.3) %>%
+        addLegend(position = "bottomleft", pal = colores, values = mundo.alta$`2018.y`,
+                  title = "% Mujeres",
+                  opacity = 0.8) %>% 
+      
+
+        addEasyButton(easyButton(
+          icon="fa-globe", title="Zoom to Level 1",
+          onClick=JS("function(btn, map){ map.setZoom(1); }"))) %>%
+        addEasyButton(easyButton(
+          icon="fa-crosshairs", title="Locate Me",
+          onClick=JS("function(btn, map){ map.locate({setView: true}); }"))) %>% 
+          addSearchOSM(options = searchOptions(zoom=15, position = 'topleft'))
+
+#library(htmlwidgets)
+#library(htmltools)
+
+htmlwidgets::saveWidget(mapa.mep, file = "mapamundo.html", selfcontained = T)
+```
+
+<iframe seamless src="../mapamundo/index.html" width="100%" height="500"></iframe>
+Fuente: Elaboración propia en base a datos de la [Unión Interparlamentaria (IPU).](http://archive.ipu.org/english/home.htm). Ver [aplicación](https://calcita.shinyapps.io/women_in_politics/).
+
+## Mujeres en el parlamento
+
+A nivel mundial Uruguay ocupa el puesto 97° del ranking que mide el _porcentaje de mujeres en el parlamento_ (PMP), es decir, en Cámara Baja y Cámara Alta -o Cámara Única-. En particular, de las 99 bancas de la Cámara de Diputadxs, solo 20 están ocupadas por mujeres, es decir, un 20,2%. En la Cámara de Senadorxs, la cifra es un poco mayor y asciende al 29%. Si bien la situación actual de Uruguay en cuanto a la baja representación de mujeres es preocupante en el contexto mundial, también lo es en términos regionales. Uruguay solo supera a Brasil, Paraguay y Colombia en PMP, y está lejos de los guarismos que alcanzan Ecuador (38% Cámara Única), Argentina (38,9% Cámara Baja y 41,7% Cámara Alta) o Bolivia (53,1% Cámara Baja y 47,2% Cámara Alta). 
+
+```{r, echo=FALSE}
+#library(leaflet)
+#library(widgetframe)
+#frameWidget(mapamundo, height = '400')
+```
+
+```{r echo=FALSE, message=FALSE}
+library(extrafont)
+library(dplyr)
+library(ggplot2)
+library(ggflags)
+library(ggrepel)
+load("parlamento.Rdata")
+source("mytheme.R")
+
+countries <- c("Argentina", "Bolivia","Brazil","Nepal", "South Africa" ,"Sweden","Uruguay")
+
+p <- parlamento[parlamento$country %in% countries & parlamento$year!=1997, ]
+#p <- parlamento[parlamento$continent %in% "South America",]
+p <- p %>% arrange(year,desc(porc_baja))
+#p <- p[p$country %in% c("Argentina", "Bolivia","Brazil","Chile", "United States of America" ,"Sweden","Uruguay"),]
+
+p$nombre <- as.character(p$nombre)
+n=length(countries)
+###with flags
+primeros <- tolower(p$cod2[1:n])
+ultimos <- tolower(p$cod2[(nrow(p)-(n-1)):nrow(p)])
+tasa1 <- p$porc_baja[1:n]
+tasa2 <- p$porc_baja[(nrow(p)-(n-1)):nrow(p)]
+rank2 <- p$rank[(nrow(p)-(n-1)):nrow(p)]
+name <- paste(p$rank[(nrow(p)-(n-1)):nrow(p)], "-",p$nombre[(nrow(p)-(n-1)):nrow(p)])
+
+country_flags_start <- data.frame(
+  x = 1999.5, y = tasa1, 
+  country = primeros, 
+  stringsAsFactors = FALSE)
+
+country_flags_end <- data.frame(
+  x = 2018.5, y = tasa2, 
+  country = ultimos, 
+  ranking = rank2,
+  nombre = name,
+  stringsAsFactors = FALSE)
+
+#colores <- c("#66a61e","#1b9e77","#e6ab02","#9ecae1","#7570b3","#386cb0","#d95f02")
+colores <- c("#d53e4f","#fc8d59","#fee08b","#e0e0e0","#4d4d4d","#3288bd","#5ab4ac")
+show.top.n <- 55
+
+ggplot(data = p, aes(x = year, y = porc_baja, group = country)) +
+  geom_line(aes(color = cod2), size = 2) +
+  geom_point(color = "#FFFFFF", size = 4) +
+  geom_point(aes(color = cod2), size = 4) +
+  geom_point(color = "#FFFFFF", size = 1) +
+  scale_y_continuous(breaks=seq(0,show.top.n, by=5)) +
+  #scale_x_continuous(breaks = 2000:2018, minor_breaks = 2000:2018, expand = c(.05, .05)) +
+  scale_x_continuous(breaks=seq(2000,2018, by=3),expand = c(.01, .35)) +
+  geom_flag(data = country_flags_start, aes(x = x, y = y, country = country, size = 2)) +
+  geom_flag(data = country_flags_end, aes(x = x, y = y, country = country, size = 2)) +
+  geom_text(data = country_flags_end, aes(x = 2019.5, y = y,label= toupper(country))) +
+  coord_cartesian(ylim = c(1,show.top.n)) + 
+  theme(legend.position = "none") +
+  labs(x = " ",
+       y = " ",#"% mujeres en parlamento",
+       title = " ",
+       subtitle = "Porcentaje de mujeres en el parlamento por país y año") +
+  my_theme() +
+  scale_color_manual(values = c(colores,rep("#e0e0e0",9)))
+
+```
+Fuente: Elaboración propia en base a datos de la [Unión Interparlamentaria (IPU).](http://archive.ipu.org/english/home.htm)
+
+```{r echo=FALSE}
+#library(DT)
+#library(dplyr)
+#parlamento_sub <- parlamento[parlamento$year=="2018",c(3,14:15,19,24)]
+#names(parlamento_sub)<-c("Rank", "%_m_cb","%_m_ca", "País", "Cont.")
+#parlamento_sub <- parlamento_sub[,c(1,4,5,2,3)]
+#parlamento_sub$Rank <-as.numeric(parlamento_sub$Rank)
+#parlamento_sub$Cont. <- recode(parlamento_sub$Cont., !!! list(África ="AF", Asia="AS",Europa="EU", Norteamérica="NA",Sudamérica="SA"))
+#parlamento_sub <- parlamento_sub %>% arrange(Rank)
+#tabla.parlamento <- DT::datatable(parlamento_sub,extensions = "Scroller", rownames = FALSE,selection = list(mode = "none"),
+ #                                              options = list(language = list(#url = '//cdn.datatables.net/plug-ins/1.10.11/i18n/Spanish.json'),
+#                                                 info = 'Se muestran _START_ de _END_ registros',
+ #                                                paginate = list(previous = 'Anterior', `next` = 'Siguiente'),
+  #                                               search = 'Buscar',
+   #                                              lengthMenu = 'Mostrar _MENU_ registros',
+    #                                             scroller=T
+     #                                          ),
+                                               #pageLength = 7, autoWidth = FALSE, 
+      #                                         columnDefs = list(list(width = '100px', targets = "_all"))))
+
+#tabla.parlamento
+```
+
+## La ley de cuotas en Uruguay
+
+En 1988 fue la primera vez que se presentó un proyecto de ley que promovía una mínima representación de mujeres en el parlamento. Pasaron 21 años para que se apruebe en 2009 una ley de cuotas, con la promulgación de la [Ley N° 18476](https://oig.cepal.org/sites/default/files/2009_ley18476_ury.pdf) que aplicó una _cuota femenina_ en las elecciones internas de ese año pero que rigió para  las elecciones nacionales y departamentales recién para los años 2014 y 2015, respectivamente. Esta Ley supone que para las elecciones nacionales, departamentales y municipales, cada lista de candidatxs a la Cámara de Senadores, a la Cámara de Representantes, a las Juntas Departamentales, a los Municipios y a las Juntas Electorales, la obligatoriedad de incluir a personas de ambos sexos en cada terna (tres lugares sucesivos) de titulares y suplentes. Así, podrá haber una mujer y dos hombres cada tres candidatos, o dos mujeres y un hombre en cada terna.
+
+## Efecto de la ley de cuotas en el parlamento
+
+Para observar el impacto de la ley de cuotas en las últimas elecciones, es necesario comparar con la situación sin dicha ley. En la Cámara de Diputadxs no se observan cambios significativos entre la elección de 2009 y la de 2014. Sin embargo, sí se produjo un salto cualitativo  en la representación de mujeres en el Senado entre la elección de 2009 - sin sistema de cuotas- donde apenas 1 de cada 10 bancas eran ocupadas por mujeres y la de 2014 - con sistema de cuotas- donde 1 de cada 3 de cada 10 pasaron a ocuparse por mujeres. Claramente, la ley de cuotas no tuvo efectos en la representación de mujeres en la Cámara de Diputadxs pero sí lo tuvo en la Cámara de Senadorxs. ¿Por qué tuvo estos efectos dispares?
+
+
+<!-- Aún prevalencen discursos, tanto de hombres como mujeres que suponen que existe la igualdad de oportunidades para todas las personas independientemente de su identidad de género, etnia/raza, etc. y no entiende este tipo de leyes como políticas de acción afirmativa para romper con las barreras que desde siempre han encontrado las mujeres -independientemente de su idoneidad- a hacerse un camino en la política partidaria. -->
+
+<!-- Es amplia la literatura que respalda que esto no se debe a falta de capacidad o interés. La razón es que el acceso a la esfera política, tradicionalmente dominada por los hombres, se ve dificultado por barreras discriminatorias prácticas y simbólicas, que no permiten que un mayor número de mujeres logre ingresar y permanecer en cargos electivos. -->
+
+## Hecha la ley, hecha la trampa
+
+El porqué de que el sistema de cuotas implementado en las pasadas elecciones no tuvo los resultados esperados fue ampliamante estudiado por Niki Johnson [^1], quien plantea: 
+
+> 'Lo que determina los bajos porcentajes de mujeres electas es el hecho de que las candidatas generalmente no se ubican en lugares seguros de las listas. Esto implica que **la causa directa de la exclusión de las mujeres debe buscarse en los procedimientos utilizados por los sectores partidarios para armar sus listas de candidatos**'. 
+
+Pero dado esto, lo que reduce las chances de las mujeres ser electas es la elección de su partido de en qué lugar colocarlas en la lista:
+
+> 'No obstante, las magnitudes pequeñas de distrito y los índices altos de
+fraccionalización no excluyen de por sí a las mujeres. Lo que hacen estas
+características político-institucionales es reducir la cantidad de lugares seguros o
+competitivos en las listas electorales'. 
+
+<!-- > 'Cuando se comparan las tasas de representación femenina resultantes de las últimas elecciones sin cuota y las primeras con cuota, se advierte el impacto restringido que tuvo la ley. Solo en el Senado y en las Convenciones Nacionales se aumentó por más de 10 puntos porcentuales la presencia de mujeres, mientras que en los distritos chicos del Interior de la Cámara de Representantes no tuvo ningún impacto y en los cargos uninominales (intendencias y alcaldías) de hecho se registró un retroceso en la tasa de mujeres electas'. -->
+
+
+Como se puede observar en el siguiente gráfico, que da cuenta de lxs Senadorxs/Diputadxs electxs y sus respectivxs Suplentes, es que en el Interior del país -excluyendo Canelones- las mujeres casi no encabezaron lista en la Cámara de Representantes. Mientras que las mujeres ocuparon en la terna de Suplentes, mayormente el tercer lugar y en muy pocos casos el primero. Este patrón se cumplió para todos los partidos en las listas de ambas Cámaras.
+
+```{r echo=FALSE}
+library(dplyr)
+library(plotly)
+load(file="puntos.Rdata")
+
+algo <- list(x = c(2.2,11.2,10.69,11.59),  y = c(35, 35.5,-1,-1), text = c('<b>Senadorxs y \nSuplentxs</b>' ,"<b>Diputadxs y Suplentxs</b>","<b>H</b>","<b>M</b>"), 
+             xref = "x", yref = "y", showarrow = FALSE, ax = 20, ay = -40,
+             font = list(color = c('#f7f7f7','#f7f7f7',"#252525","#252525"),
+                         family = 'sans serif',
+                         face = 'bold',
+                         size = 12))
+coloreo <- c(as.character(puntos$colores),"#cccccc","#1c9099")
+ploto <-puntos %>%
+  plot_ly(x = ~X, y = ~Y, text= ~texto , hoverinfo="text" , marker=list(color=coloreo , size=9 , opacity=0.7),  mode = 'markers',type = 'scatter') %>%
+  config(displayModeBar = F) %>%
+  layout(#title = 'Kilómetros recorridos según medio de transporte',
+#    legend = l,
+    annotations = algo,
+    xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE, title=" "),
+    yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE, title=" "))
+
+ ploto <- layout(ploto, title = '',
+            shapes = list(
+              list(type = "rect",
+                   fillcolor = "", line = list(color = "#252525"), opacity = 1,
+                   x0 = 0.5, x1 = 4.5, xref = "x",
+                   y0 =2.0 , y1 = 33.5, yref = "y"),
+               # list(type = "rect",
+               #      fillcolor = "", line = list(color = "#252525"), opacity = 0.75,
+               #      x0 = 0.5, x1 = 4.5, xref = "x",
+               #      y0 =33.5 , y1 = 36.5, yref = "y"),
+               list(type = "rect",
+                    fillcolor = "", line = list(color = "#252525"), opacity = 0.75,
+                    x0 = 5.2, x1 = 8.9, xref = "x",
+                    y0 =0 , y1 = 34.3, yref = "y"),
+              list(type = "rect",
+                   fillcolor = "", line = list(color = "#252525"), opacity = 0.75,
+                   x0 = 9.5, x1 = 13.5, xref = "x",
+                   y0 =0 , y1 = 34.3, yref = "y"),
+              list(type = "rect",
+                   fillcolor = "", line = list(color = "#252525"), opacity = 0.75,
+                   x0 = 14.0, x1 = 18, xref = "x",
+                   y0 =0 , y1 = 34.3, yref = "y"),
+              list(type = "circle",
+                   fillcolor = "#cccccc", line = list(color = "#cccccc"), opacity = 0.7,
+                   x0 = 10.29, x1 = 10.5, xref = "x",
+                   y0 =-1.2 , y1 = -0.6, yref = "y"),
+              list(type = "circle",
+                   fillcolor = "#1c9099", line = list(color = "#1c9099"), opacity = 0.7,
+                   x0 = 11.15, x1 = 11.35, xref = "x",
+                   y0 =-1.2 , y1 = -0.6, yref = "y"),
+               list(type = "rect",
+                    fillcolor = "", line = list(color = "#252525"), opacity = 0.75,
+                    x0 = 5.2, x1 = 18,
+                    y0 = 0.02, y1 = 34.3)
+              ))
+
+
+
+```
+
+```{r, message=FALSE, warning=FALSE, include=FALSE}
+library(htmlwidgets)
+library(htmltools)
+
+#htmlwidgets::saveWidget(tabla.parlamento, file = "d1.html", selfcontained = T)
+htmlwidgets::saveWidget(ploto, file = "ploto.html", selfcontained = T)
+```
+
+<iframe seamless src="../ploto/index.html" width="100%" height="700"></iframe>
+
+Si observamos dónde se concentran más las mujeres electas en la Cámara de Senadorxs, es en el lugar de tercera suplente, donde el 70% son mujeres. Si una senadora electa renuncia la sucederá un hombre porque en ningún caso como primera suplente de una senadora hay una mujer. Mientras que en la Cámara Baja, vemos que la mayor representación de mujeres está en las bancas de _segundas Suplentes__ (49%), y de terceras Suplentes (36%). El 82% de los lugares de primerx suplente de una diputada lo ocupa un hombre, mientras que apenas el 27% de los lugares de primerx suplente de un diputado lo ocupa una mujer. 
+<!-- Cada 2 Senadores hay 1 Senadora y cada 2 terceras Suplentes hay un solo tercer Suplente. -->
+
+```{r echo=FALSE}
+load(file="dip.Rdata")
+s <- read.csv("senadorxs.csv")
+source("squarePie.R")
+
+d1 <- round(prop.table(table(dip$sexo_rep))*100,0)
+d2 <- round(prop.table(table(dip$sexo_sup1))*100,0)
+d3 <- round(prop.table(table(dip$sexo_sup2))*100,0)
+d4 <- round(prop.table(table(dip$sexo_sup3))*100,0)
+
+s1 <- round(prop.table(table(s$sexo_senador))*100,0)
+s2 <- round(prop.table(table(s$sexo_suplente1))*100,0)
+s3 <- round(prop.table(table(s$sexo_suplente2))*100,0)
+s4 <- round(prop.table(table(s$sexo_suplente3))*100,0)
+
+lcols <- c("#ffffb3", "#8dd3c7","#fb8072","#fdb462","#f0f0f0","#bebada")
+
+par(mfrow=c(2,4),mar=c(0,0,0,0))
+par(xpd = T, mar = par()$mar + c(0,0,0,0))
+
+squarePie(s1,col=lcols)
+text(8.5,9.5,paste0(s1[2],"%"))
+text(2,1.5,paste0(s1[1],"%"))
+text(4,11,"Senadorxs")
+
+squarePie(s2,col=lcols)
+text(8.5,9.5,paste0(s2[2],"%"))
+text(2,1.5,paste0(s2[1],"%"))
+text(4,11,"Suplentes 1")
+
+squarePie(s3,col=lcols)
+text(8.5,9.5,paste0(s3[2],"%"))
+text(2,1.5,paste0(s3[1],"%"))
+text(4,11,"Suplentes 2")
+
+squarePie(s4,col=lcols)
+legend(6, 0,rownames(s1),pch=0, col=lcols, cex=0.9, fill=lcols, y.intersp=1)
+text(8.5,9.5,paste0(s4[2],"%"))
+text(2,1.5,paste0(s4[1],"%"))
+text(4,11,"Suplentes 3")
+
+squarePie(d1,col=lcols)
+text(8.5,9.5,paste0(d1[2],"%"))
+text(2,1.5,paste0(d1[1],"%"))
+text(4,11,"Diputadxs")
+
+squarePie(d2,col=lcols)
+text(8.5,9.5,paste0(d2[2],"%"))
+text(2,1.5,paste0(d2[1],"%"))
+text(4,11,"Suplentes 1")
+
+squarePie(d3,col=lcols)
+text(8.5,9.5,paste0(d3[2],"%"))
+text(2,1.5,paste0(d3[1],"%"))
+text(4,11,"Suplentes 2")
+
+squarePie(d4,col=lcols)
+legend(6, 0,rownames(d1),pch=0, col=lcols, cex=0.9, fill=lcols, y.intersp=1)
+text(8.5,9.5,paste0(d4[2],"%"))
+text(2,1.5,paste0(d4[1],"%"))
+text(4,11,"Suplentes 3")
+```
+Fuente: Elaboración propia en base a datos de la [Corte Electoral](http://www.corteelectoral.gub.uy/gxpsites/page.aspx?3,26,453,O,S,0,)
+
+<!-- Si analizamos quiénes son lxs primerxs suplentes de un diputado y de una diputada respectivamente, vemos que para los hombres en el .....% de los casos, su primerx suplente es otro hombre. Pero para las mujeres en la mayoría de los casos, su primerx suplente es un hombre. -->
+
+## ¿Dónde está la pelota de la paridad? 
+
+No alcanzaron 30 años de discusión parlamentaria para lograr una ley de cuotas paritaria, y estos resultados muestran que la ley que existe actualmente no es suficiente para lograr una mayor representación de las mujeres en el parlamento. ¿Hasta que punto los partidos pueden cumplir la ley a regañadientes al momento de la conformación de las listas? ¿Esta ley supone un piso o más bien un techo para la efectiva participación de las mujeres? 
+
+<!-- 'Pero hecha la ley hecha la trampa' https://ladiaria.com.uy/articulo/2012/3/en-comodas-cuotas/ -->
+
+<!-- Durante el primer gobierno democrático posdictadura no hubo ninguna diputada ni senadora.  -->
+<!-- Aunque lejos del anhelado horizonte de la paridad, la legislatura actual –la séptima desde entonces– cuenta con la mayor cantidad de parlamentarias de la historia,1 un mérito que puede atribuirse a la Red de Mujeres Políticas.  -->
+
+<!-- "No nos gustan las cuotas", afirmó la nacionalista Elizabeth Arrieta. "Y mucho menos que nos regalen nada. Hemos sabido las mujeres abrirnos camino solas", añadió. "No se trata de una lucha de mujeres contra hombres, ni de mujeres que quieren desplazar a hombres. Hemos procurado aportar a la igualdad de oportunidades", aclaró. -->
+
+<!-- http://www.lr21.com.uy/politica/1348166-ley-cuotas-parlamento-equidad-representacion-femenina -->
+
+<!-- https://www.elpais.com.uy/informacion/diputados-sanciono-ley-equidad-genero.html -->
+
+<!-- "La ley de cuotas aprobada en abril 2009 por el Parlamento estableció la obligatoriedad para los partidos políticos de incluir a candidatos de ambos sexos en cada terna de sus listas de candidatos titulares y suplentes en las elecciones internas, nacionales y departamentales, y en las elecciones de segundo grado a efectos de integrar los respectivos órganos de dirección partidaria." Pero las cuotas para las elecciones nacionales y departamentales solo se aplicaría en el ciclo electoral 2014/2015.  -->
+<!-- "En las circunscripciones binominales de la Cámara de Representantes los dos titulares -->
+<!-- debían ser de diferente sexo. La ley también dispuso que las autoridades -->
+<!-- electorales negarían el registro de las hojas de votación que no cumplieran con -->
+<!-- las disposiciones de la ley (art. 3)..."" -->
+
+
+<!-- "La aplicación de la cuota tuvo un impacto significativo únicamente en las -->
+<!-- Convenciones Nacionales partidarias (estructuras bastante irrelevantes en -->
+<!-- el quehacer político cotidiano), el Senado y las Juntas Departamentales. -->
+<!--  La experiencia delas Convenciones Nacionales (único ámbito con más de -->
+<!-- una aplicación de la cuota) indica que la cuota se convierte en un techo -->
+<!-- máximo para la representación de las mujeres, en vez de operar como un -->
+<!-- piso mínimo." Niki Johnson -->
+Johnson lo plantea claramente:
+
+> 'Entonces, las mayores trabas para una representación política igualitaria
+de mujeres y hombres deben buscarse en la arquitectura del sistema electoral,
+y en los procesos institucionales y prácticas políticas discriminatorios y
+excluyentes que siguen caracterizando la política uruguaya y especialmente
+pautando el acceso a los cargos de representación política.La experiencia del
+último ciclo electoral demuestra que estos obstáculos no son fáciles de superar'. 
+
+Por lo tanto, una mayor participación de las mujeres en el parlamento estará supeditada en primera instancia a cómo los partidos políticos conformen sus listas, sería deseable que de una vez por todas tenga en cuenta el criterio de paridad. 
+
+<!-- Si se desagregan las tasas de representación femenina a nivel nacional y -->
+<!-- subnacional por magnitud de distrito para el período anterior a la cuota (Gráfico -->
+<!-- 5) se observa que las mujeres generalmente han logrado una mayor presencia -->
+<!-- en los distritos más grandes – el distrito deMontevideo en la Cámara de -->
+<!-- Representantes, las Juntas Departamentales y el Senado. Aunque los distritos -->
+<!-- más pequeños del Interior son bi- o plurinominales, la cantidad limitada de -->
+<!-- bancas en disputa hace que solamente el primer lugar de la lista tenga alguna -->
+<!-- chance real de ser electo. En las elecciones de 2009 el 90,7% de los candidatos -->
+<!-- “cabeza de lista” de las listas ganadoras eran hombres; en 2014 el 88,4% lo eran -->
+<!-- (Johnson 2015b -->
+
+
+<!-- "La ley -->
+<!-- de cuotas finalmente fue aprobada más de veinte años después de que se -->
+<!-- presentara el primer proyecto y luego de repetidos intentos de parte de las -->
+<!-- mujeres políticas organizadas (en espacios internos partidarios y coordinaciones -->
+<!-- interpartidarias) y del movimiento feminista de lograr que la dirigencia partidaria -->
+<!-- masculina reflexionara sobre el tema y tomara medidas para asegurar la -->
+<!-- efectivización del derecho de las mujeres a ser elegidas a la par de los -->
+<!-- hombres(ver el Cuadro 12)...la aprobación de la ley de cuota en Uruguay también llegó mucho después que otros países latinoaméricanos aprobaran leyes iguales" -->
+
+
+<!-- Documentación sobre las diferentes leyes discutidas en estos años https://www.scribd.com/document/341981404/Proyecto-Cuota-Femenina-2017#download&from_embed -->
+
+<!-- La ley aprobada implica una extensión de la votada en 2009, ya que esta vez le da carácter indefinido en el tiempo al sistema utilizado en octubre de 2014 y mayo de 2015. La Cámara de Senadores había aprobado el texto por unanimidad el pasado 15 de marzo. El 18 de octubre la Cámara de Diputadxs aprobó el proyecto de ley de cuotas que dispone que uno de cada tres lugares en las listas para cargos electivos sean ocupados por mujeres de ahora en adelante y sin fecha de caducidad. Esto supone una extensión de la ley votada en el 2009. -->
+
+<!-- Por una decisión del Plenario del Frente Amplio, las listas a las próximas elecciones estarán integradas por la mitad de hombres y de mujeres. -->
+
+<!-- ¿Esta decisión también se aplicará para la fórmula presidencial para el 2019? -->
+
+
+
+<!-- ## Hecha la ley, hecha la trampa -->
+<!-- dfsdf sdfdsfsdfsdfsf -->
+
+
+<!-- You can also embed plots, for example: -->
+
+```{r, plotly=TRUE, echo=FALSE, message=FALSE}
+# library(plotly)
+# #load(file="/home/calcita/MEGA/myblog/CV/s.Rdata")
+# load(file="/home/calcita/MEGA/Mujeres en política/s.Rdata")
+# 
+# color.senador <-ifelse(s$sexo_senador=="hombre","#cccccc","#1c9099")
+# color.suplente1 <-ifelse(s$sexo_suplente1=="hombre","#cccccc","#1c9099")
+# color.suplente2 <-ifelse(s$sexo_suplente2=="hombre","#cccccc","#1c9099")
+# color.suplente3 <-ifelse(s$sexo_suplente3=="hombre","#cccccc","#1c9099")
+# colores<-cbind(color.senador,color.suplente1,color.suplente2,color.suplente3)
+# 
+# s$senadorx <-paste(s$Nombre_senador1,s$Apellido_senador1)
+# s$suplente1 <-paste(s$Nombre_suplente1,s$Apellido_suplente1)
+# s$suplente2 <-paste(s$Nombre_suplente2,s$Apellido_suplente2)
+# s$suplente3 <-paste(s$Nombre_suplente3,s$Apellido_suplente3)
+# 
+# sena.nombre <- c(s$senadorx, s$suplente1, s$suplente2, s$suplente3)
+# sena.color <- c(color.senador,color.suplente1,color.suplente2,color.suplente3)
+# 
+# library(dplyr)
+# library(plotly)
+# d <-data.frame(c(rep(1,30),rep(2,30),rep(3,30),rep(4,30)),rep(1:30,4))
+# #d$sena.nombre <- sena.nombre
+# #d$sena.color <- sena.color
+# d[121,] <- c(-13,1,".","white")
+# d[122,] <- c(17,1,".","white")
+# 
+# 
+# names(d)[1:2]<-c("X","Y")
+# d$my_text <- paste(sena.nombre,"\npartido","\n1a Suplente")
+# #d$my_text=paste("Write what you want | Value of a : ")
+# ploto <-d %>% 
+#   plot_ly(x = ~X, y = ~Y, text=~my_text , hoverinfo="text" , marker=list(color=sena.color , size=11 , opacity=0.7)) %>% 
+#   config(displayModeBar = F) %>%
+#   layout(#title = 'Kilómetros recorridos según medio de transporte',  
+#     showlegend = F,
+#     xaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE),
+#     yaxis = list(showgrid = FALSE, zeroline = FALSE, showticklabels = FALSE))
+# ploto
+```
+
+
+
+```{r echo=FALSE}
+# htmltools::tags$iframe(src = '/home/calcita/image.html', width = '30%', height = '...')
+```
+
+```{r echo=FALSE}
+#htmltools::includeHTML("/home/calcita/image.html")
+```
+
+
+
+### Referencias
+
+[^1]: Johnson, Niki (2016). "Diagnóstico prospectivo en brechas de género y su impacto en el desarrollo Participación y representación política". Oficina de Planeamiento y Presupuesto.
+

@@ -20,9 +20,27 @@
     </item>
     
     <item>
+      <title>Gender</title>
+      <link>/tags/gender/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/gender/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ggplot2</title>
+      <link>/tags/ggplot2/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/tags/ggplot2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Leaflet</title>
       <link>/tags/leaflet/</link>
-      <pubDate>Sat, 23 Sep 2017 21:13:14 -0500</pubDate>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/leaflet/</guid>
       <description></description>
@@ -31,7 +49,7 @@
     <item>
       <title>Map</title>
       <link>/tags/map/</link>
-      <pubDate>Sat, 23 Sep 2017 21:13:14 -0500</pubDate>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/map/</guid>
       <description></description>
@@ -40,7 +58,7 @@
     <item>
       <title>R</title>
       <link>/tags/r/</link>
-      <pubDate>Sat, 23 Sep 2017 21:13:14 -0500</pubDate>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
       
       <guid>/tags/r/</guid>
       <description></description>

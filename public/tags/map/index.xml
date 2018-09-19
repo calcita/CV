@@ -5,10 +5,20 @@
     <link>/tags/map/</link>
     <description>Recent content in Map on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 23 Sep 2017 21:13:14 -0500</lastBuildDate>
+    <lastBuildDate>Fri, 18 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/map/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Mujeres en el parlamento</title>
+      <link>/post/mujeres-en-el-parlamento/</link>
+      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/mujeres-en-el-parlamento/</guid>
+      <description>--  Fuente: Elaboración propia en base a datos de la Unión Interparlamentaria (IPU).. Ver aplicación.
+Mujeres en el parlamento A nivel mundial Uruguay ocupa el puesto 97° del ranking que mide el porcentaje de mujeres en el parlamento (PMP), es decir, en Cámara Baja y Cámara Alta -o Cámara Única-. En particular, de las 99 bancas de la Cámara de Diputadxs, solo 20 están ocupadas por mujeres, es decir, un 20,2%.</description>
+    </item>
     
     <item>
       <title>Add a pop-up with an image to a leaflet map in R</title>

@@ -1,0 +1,13 @@
+base
+htmlwidgets
+htmltools
+dplyr
+leaflet
+leaflet.extras
+sp
+extrafont
+ggplot2
+ggflags
+ggrepel
+bindrcpp
+plotly
