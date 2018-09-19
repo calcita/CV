@@ -224,7 +224,7 @@ competitivos en las listas electorales'.
 
 Como se puede observar en el siguiente gráfico, que da cuenta de lxs Senadorxs/Diputadxs electxs y sus respectivxs Suplentes, es que en el Interior del país -excluyendo Canelones- las mujeres casi no encabezaron lista en la Cámara de Representantes. Mientras que las mujeres ocuparon en la terna de Suplentes, mayormente el tercer lugar y en muy pocos casos el primero. Este patrón se cumplió para todos los partidos en las listas de ambas Cámaras.
 
-```{r echo=FALSE}
+```{r echo=FALSE, message= FALSE}
 library(dplyr)
 library(plotly)
 load(file="puntos.Rdata")
