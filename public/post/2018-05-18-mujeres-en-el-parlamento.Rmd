@@ -34,7 +34,7 @@ load("puntos.Rdata")
       colores <- colorFactor(c("#66c2a4","#41ae76","#006d2c","#00441b","grey", "#e5f5f9"), domain = levels(mundo.alta$`2018.y`))#
       
 
-   mapa.mep <- leaflet() %>%  
+mapa.mep <- leaflet() %>%  
         #addTiles() %>% 
         setView(-12.13, 28.40, zoom=2)%>%
         #addProviderTiles("OpenStreetMap.Mapnik") %>%
@@ -53,31 +53,30 @@ load("puntos.Rdata")
                     popup = ifelse(mundo.alta$`2018.x`=="Sin dato",paste(mundo.alta$nombre, "<br>", mundo.alta$`2018.x`, "<br>"),
                                    ifelse(mundo.alta$`2018.x`=="No aplica", paste(mundo.alta$nombre, "<br>",paste0("(",mundo.alta$`2018.x`,")")),
                                    paste(mundo.alta$nombre, "<br>",paste0(mundo.alta$`2018.x`, "%")))),
-                    popupOptions = popupOptions(maxWidth ="100%", closeOnClick = TRUE)) %>%
-        
-        addPolygons(data = mundo.baja, group = "2000: Cámara Baja",
-                    stroke = TRUE,  smoothFactor = 0.2, fillOpacity = 0.8, weight=0.3,
-                    fillColor = ~colores(mundo.baja$`2000.y`), color="#023858",
-                    popup = ifelse(mundo.baja$`2000.x`=="Sin dato",paste(mundo.baja$nombre, "<br>",
-                            paste0("(",mundo.baja$`2000.x`,")"), "<br>"), paste(mundo.baja$nombre, "<br>",paste0(mundo.baja$`2000.x`, "%"))),
-                    popupOptions = popupOptions(maxWidth ="100%", closeOnClick = TRUE)) %>%
-        
-        addPolygons(data = mundo.alta, group = "2000: Cámara Alta",
-                    stroke = TRUE,  smoothFactor = 0.2, fillOpacity = 0.8, weight=0.3, opacity=0.5,
-                    fillColor = ~colores(mundo.alta$`2000.y`), color="#023858",
-                    popup = ifelse(mundo.alta$`2000.x`=="Sin dato",paste(mundo.alta$nombre, "<br>", mundo.alta$`2000.x`, "<br>"),
-                                   ifelse(mundo.alta$`2000.x`=="No aplica", paste(mundo.alta$nombre, "<br>",paste0("(",mundo.alta$`2000.x`,")")),
-                                          paste(mundo.alta$nombre, "<br>",paste0(mundo.alta$`2000.x`, "%")))),
-                    popupOptions = popupOptions(maxWidth ="100%", closeOnClick = TRUE)) %>%
-        addLayersControl(baseGroups = c("2018: Cámara Baja","2018: Cámara Alta", "2000: Cámara Baja", "2000: Cámara Alta")) %>%
+                     popupOptions = popupOptions(maxWidth ="100%", closeOnClick = TRUE)) %>%
+        # 
+        # addPolygons(data = mundo.baja, group = "2000: Cámara Baja",
+        #             stroke = TRUE,  smoothFactor = 0.2, fillOpacity = 0.8, weight=0.3,
+        #             fillColor = ~colores(mundo.baja$`2000.y`), color="#023858",
+        #             popup = ifelse(mundo.baja$`2000.x`=="Sin dato",paste(mundo.baja$nombre, "<br>",
+        #                     paste0("(",mundo.baja$`2000.x`,")"), "<br>"), paste(mundo.baja$nombre, "<br>",paste0(mundo.baja$`2000.x`, "%"))),
+        #             popupOptions = popupOptions(maxWidth ="100%", closeOnClick = TRUE)) %>%
+        # 
+        # addPolygons(data = mundo.alta, group = "2000: Cámara Alta",
+        #             stroke = TRUE,  smoothFactor = 0.2, fillOpacity = 0.8, weight=0.3, opacity=0.5,
+        #             fillColor = ~colores(mundo.alta$`2000.y`), color="#023858",
+        #             popup = ifelse(mundo.alta$`2000.x`=="Sin dato",paste(mundo.alta$nombre, "<br>", mundo.alta$`2000.x`, "<br>"),
+        #                            ifelse(mundo.alta$`2000.x`=="No aplica", paste(mundo.alta$nombre, "<br>",paste0("(",mundo.alta$`2000.x`,")")),
+        #                                   paste(mundo.alta$nombre, "<br>",paste0(mundo.alta$`2000.x`, "%")))),
+        #             popupOptions = popupOptions(maxWidth ="100%", closeOnClick = TRUE)) %>%
+        addLayersControl(baseGroups = c("2018: Cámara Baja","2018: Cámara Alta")) %>%
         # addLegend(position = "bottomright", pal = conpal, values = mydf$value,
         #           title = "UK value",
         #           opacity = 0.3) %>%
         addLegend(position = "bottomleft", pal = colores, values = mundo.alta$`2018.y`,
                   title = "% Mujeres",
                   opacity = 0.8) %>% 
-      
-
+    
         addEasyButton(easyButton(
           icon="fa-globe", title="Zoom to Level 1",
           onClick=JS("function(btn, map){ map.setZoom(1); }"))) %>%
@@ -85,9 +84,6 @@ load("puntos.Rdata")
           icon="fa-crosshairs", title="Locate Me",
           onClick=JS("function(btn, map){ map.locate({setView: true}); }"))) %>% 
           addSearchOSM(options = searchOptions(zoom=15, position = 'topleft'))
-
-#library(htmlwidgets)
-#library(htmltools)
 
 htmlwidgets::saveWidget(mapa.mep, file = "mapamundo.html", selfcontained = T)
 ```
