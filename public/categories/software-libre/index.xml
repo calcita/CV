@@ -5,10 +5,19 @@
     <link>/categories/software-libre/</link>
     <description>Recent content in Software-libre on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 14 Feb 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/categories/software-libre/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Software Libre en FCEA-UdelaR</title>
+      <link>/post/jornadas-fcea/</link>
+      <pubDate>Fri, 09 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/jornadas-fcea/</guid>
+      <description>En las VIII Jornadas Académicas de la Facultad de Ciencias Económicas y de Administración de la UdelaR, presenté dos ejemplos del uso de software libre en el Estado y en organizaciones sociales. La mesa organizada por Natalia Da Silva, la compartí con Nicolás Schmidt y Gabriel Illanes. Aquí pueden ver la presentación que realicé donde mostré los diferentes programas libres que se pueden usar para trabajar con bases de datos, hacer análisis y visualización de datos así como también para crear una nube propia o hacer una encuesta online.</description>
+    </item>
     
     <item>
       <title>Alternativas a gmail</title>
