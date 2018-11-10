@@ -4,20 +4,20 @@
 <head>
   <meta charset='utf-8'>
 <meta name='viewport' content='width=device-width, initial-scale=1'>
-<meta name='description' content='Para cerrar agosto participé del primer meetup de @RLadiesMVD donde presenté esta aplicación shiny que estoy desarrollando: Cartografía Digital de Feminicidios. La presentación la podés descargar aquí y abrir el html en un navegador para poder ver los efectos.
-Fue un interesante encuentro para conocer a otras RLadies y escuchar las presentaciones de Elina Gómez y Silvana Fumega.'>
+<meta name='description' content='Suele ser muy útil cuando trabajamos en un desarrollo que requiere permanente actualización del código o un trabajo colaborativo, utilizar un programa de control de versiones. En este caso, mostraré como el software git y la plataforma web gitlab permitirán conectarse con un proyecto de R de manera de permitir el control de versiones del proyecto.
+¿Por qué usar un software de control de versiones?  Permite compartir tus proyectos, facilitando el trabajo colaborativo Regresar a versiones previas, si encontrás errores o borrás accidentalmente algo.'>
 
-<meta property='og:title' content='RLadies Montevideo • Gabriela Mathieu'>
-<meta property='og:description' content='Para cerrar agosto participé del primer meetup de @RLadiesMVD donde presenté esta aplicación shiny que estoy desarrollando: Cartografía Digital de Feminicidios. La presentación la podés descargar aquí y abrir el html en un navegador para poder ver los efectos.
-Fue un interesante encuentro para conocer a otras RLadies y escuchar las presentaciones de Elina Gómez y Silvana Fumega.'>
-<meta property='og:url' content='/post/rladies-montevideo/'>
+<meta property='og:title' content='Git con R. Control de versiones • Gabriela Mathieu'>
+<meta property='og:description' content='Suele ser muy útil cuando trabajamos en un desarrollo que requiere permanente actualización del código o un trabajo colaborativo, utilizar un programa de control de versiones. En este caso, mostraré como el software git y la plataforma web gitlab permitirán conectarse con un proyecto de R de manera de permitir el control de versiones del proyecto.
+¿Por qué usar un software de control de versiones?  Permite compartir tus proyectos, facilitando el trabajo colaborativo Regresar a versiones previas, si encontrás errores o borrás accidentalmente algo.'>
+<meta property='og:url' content='/post/git-con-r-control-de-versiones/'>
 <meta property='og:site_name' content='Gabriela Mathieu'>
-<meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='R'><meta property='article:tag' content='RLadies'><meta property='article:tag' content='shiny'><meta property='article:published_time' content='2018-09-10T00:00:00Z'/><meta property='article:modified_time' content='2018-09-10T00:00:00Z'/><meta name='twitter:card' content='summary'>
+<meta property='og:type' content='article'><meta property='article:section' content='Post'><meta property='article:tag' content='R'><meta property='article:tag' content='git'><meta property='article:tag' content='gitlab'><meta property='article:tag' content='.Rproj'><meta property='article:published_time' content='2018-11-10T00:00:00Z'/><meta property='article:modified_time' content='2018-11-10T00:00:00Z'/><meta name='twitter:card' content='summary'>
 
 <meta name="generator" content="Hugo 0.40.2" />
 
-  <title>RLadies Montevideo • Gabriela Mathieu</title>
-  <link rel='canonical' href='/post/rladies-montevideo/'>
+  <title>Git con R. Control de versiones • Gabriela Mathieu</title>
+  <link rel='canonical' href='/post/git-con-r-control-de-versiones/'>
   
   
   <link rel='icon' href='/favicon.ico'>
@@ -123,7 +123,7 @@ Fue un interesante encuentro para conocer a otras RLadies y escuchar las present
   <header class='header entry-header'>
   <div class='container sep-after'>
     <div class='header-info'>
-      <h1 class='title'>RLadies Montevideo</h1>
+      <h1 class='title'>Git con R. Control de versiones</h1>
       
 
     </div>
@@ -138,7 +138,7 @@ Fue un interesante encuentro para conocer a otras RLadies y escuchar las present
   
 </svg>
 <span class='screen-reader-text'>Posted on </span>
-  <time class='entry-date' datetime='2018-09-10T00:00:00Z'>2018, Sep 10</time>
+  <time class='entry-date' datetime='2018-11-10T00:00:00Z'>2018, Nov 10</time>
 </span>
 
   
@@ -149,7 +149,7 @@ Fue un interesante encuentro para conocer a otras RLadies y escuchar las present
   <polyline points="12 6 12 12 15 15"/>
   
 </svg>
-One min read
+2 mins read
 </span>
 
 
@@ -163,13 +163,65 @@ One min read
   
 
   <div class='container entry-content'>
-  <p>Para cerrar agosto participé del primer meetup de @RLadiesMVD donde presenté esta aplicación shiny que estoy desarrollando: <a href="https://calcita.shinyapps.io/VBG_UY/" target="_blank">Cartografía Digital de Feminicidios</a>. La presentación la podés descargar <a href="https://gitlab.com/calcita/cdf_rladiesmontevideo/blob/master/presenta/RLadies_20180830.zip" target="_blank">aquí</a> y abrir el html en un navegador para poder ver los efectos.</p>
+  
 
-<p><img src="/images/rladies.jpeg" alt="" /></p>
+<p>Suele ser muy útil cuando trabajamos en un desarrollo que requiere permanente actualización del código o un trabajo colaborativo, utilizar un programa de control de versiones. En este caso, mostraré como el software <a href="https://git-scm.com/" target="_blank">git</a> y la plataforma web <a href="https://gitlab.com/" target="_blank">gitlab</a> permitirán conectarse con un proyecto de R de manera de permitir el control de versiones del proyecto.</p>
 
-<p>Fue un interesante encuentro para conocer a otras RLadies y escuchar las presentaciones de Elina Gómez y Silvana Fumega.</p>
+<p><img src="/images/git.png" alt="" /> <img src="/images/gitlab.png" alt="" /> <img src="/images/rstudio.png" alt="" /></p>
 
-<p><img src="/images/rladies3.png" alt="" /></p>
+<h3 id="por-qué-usar-un-software-de-control-de-versiones">¿Por qué usar un software de control de versiones?</h3>
+
+<ul>
+<li>Permite compartir tus proyectos, facilitando el trabajo colaborativo</li>
+<li>Regresar a versiones previas, si encontrás errores o borrás accidentalmente algo.<br /></li>
+<li><em>Ver</em> los cambios entre diferentes versiones de tu código, análisis o texto.</li>
+<li>Permite reportar errores (bugs) o sugerir nuevos aportes (features) a proyectos.</li>
+<li>Compartir tus paquetes de R e instalar los que se encuentran en desarrollo con solo dos lineas de código: <code>install.packages(&quot;devtools&quot;); devtools::install_github(&quot;username/packagename&quot;)</code></li>
+<li>Saber cuál es la versión final de un archivo!</li>
+</ul>
+
+<p><img src="/images/porquegit.png" alt="" />
+<a href="https://swcarpentry.github.io/git-novice/01-basics/" target="_blank">Tomado de swcarpentry</a></p>
+
+<h3 id="software-de-control-de-versiones">Software de control de versiones</h3>
+
+<ul>
+<li>No es un repositorio para tus archivos</li>
+<li>Está pensado para archivos de texto plano</li>
+<li>Existen varios webservice amigables que permiten guardar proyectos en repositorios remotamente: <a href="https://about.gitlab.com/" target="_blank">gitlab</a>,  <a href="https://github.com/" target="_blank">gitHub</a> o <a href="https://bitbucket.org/" target="_blank">bitbucket</a>.</li>
+<li>Para utilizarlo es necesario: instalar git en tu sistema operativo, crear una cuenta en gitlab y configurar RStudio.</li>
+<li>Recomiendo este el libro online <a href="http://happygitwithr.com/" target="_blank">Happy with R</a></li>
+</ul>
+
+<h3 id="esquema-de-funcionamiento">Esquema de funcionamiento</h3>
+
+<p><img src="/images/remote.png" alt="" />
+<a href="http://jlord.us/git-it/challenges/remote_control.html" target="_blank">Tomado de Git-it</a></p>
+
+<h2 id="instalar-git-en-ubuntu-y-configurarlo">Instalar git en Ubuntu y configurarlo</h2>
+
+<p>En la terminal escribir el siguiente código. Las líneas de configuración es necesario modificar &ldquo;Your Name&rdquo; por el nombre que usas o usarás en la cuenta de gitlab o github y &ldquo;youremail@domain.com&rdquo; por el mail que utilizás o usarás en tu cuenta de gitlab o github</p>
+
+<pre><code>sudo apt-get install git
+git config --global user.name &quot;Your Name&quot;
+git config --global user.email &quot;youremail@domain.com&quot;
+</code></pre>
+
+<h2 id="configurar-rstudio-para-conectarlo-a-git">Configurar RStudio para conectarlo a git</h2>
+
+<iframe src="https://player.vimeo.com/video/292760320" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<h2 id="crear-proyecto-en-gitlab-y-asociarlo-con-rstudio">Crear proyecto en gitlab y asociarlo con RStudio</h2>
+
+<iframe src="https://player.vimeo.com/video/292637965" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<h2 id="repositorio-local-y-virtual-commit-y-push">Repositorio local  y virtual: commit y push</h2>
+
+<iframe src="https://player.vimeo.com/video/292640482" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p>En todo este proceso solo usamos software libre y sin gastar dinero.</p>
+
+<p><iframe src="https://giphy.com/embed/9vdAz0UyHTqZq" width="480" height="283" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/mindblown-9vdAz0UyHTqZq"></a></p></p>
 
 </div>
 
@@ -184,7 +236,7 @@ One min read
   
 </svg>
 </span>
-  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/r'>R</a>, <a class='tag' href='/tags/rladies'>RLadies</a>, <a class='tag' href='/tags/shiny'>Shiny</a></div>
+  <span class='screen-reader-text'>Tags: </span><a class='tag' href='/tags/r'>R</a>, <a class='tag' href='/tags/git'>Git</a>, <a class='tag' href='/tags/gitlab'>Gitlab</a>, <a class='tag' href='/tags/.rproj'>.Rproj</a></div>
 
   </div>
 </footer>
@@ -194,7 +246,7 @@ One min read
 
 <nav class='entry-nav'>
   <div class='container'><div class='prev-entry sep-before'>
-      <a href='/post/mujeres-en-el-parlamento/'>
+      <a href='/post/jornadas-fcea/'>
         <span aria-hidden='true'><svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
   
   <line x1="20" y1="12" x2="4" y2="12"/>
@@ -202,17 +254,7 @@ One min read
   
 </svg>
  Previous</span>
-        <span class='screen-reader-text'>Previous post: </span>Mujeres en el parlamento</a>
-    </div><div class='next-entry sep-before'>
-      <a href='/post/latinr-2018/'>
-        <span class='screen-reader-text'>Next post: </span>LatinR 2018<span aria-hidden='true'>Next <svg class='icon' viewbox='0 0 24 24' stroke-linecap='round' stroke-linejoin='round' stroke-width='2' aria-hidden='true'>
-  
-  <line x1="4" y1="12" x2="20" y2="12"/>
-  <polyline points="14 6 20 12 14 18"/>
-  
-</svg>
-</span>
-      </a>
+        <span class='screen-reader-text'>Previous post: </span>Software Libre en FCEA-UdelaR</a>
     </div></div>
 </nav>
 

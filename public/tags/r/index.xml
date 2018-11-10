@@ -5,10 +5,20 @@
     <link>/tags/r/</link>
     <description>Recent content in R on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 18 Sep 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 10 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/tags/r/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git con R. Control de versiones</title>
+      <link>/post/git-con-r-control-de-versiones/</link>
+      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/git-con-r-control-de-versiones/</guid>
+      <description>Suele ser muy útil cuando trabajamos en un desarrollo que requiere permanente actualización del código o un trabajo colaborativo, utilizar un programa de control de versiones. En este caso, mostraré como el software git y la plataforma web gitlab permitirán conectarse con un proyecto de R de manera de permitir el control de versiones del proyecto.
+¿Por qué usar un software de control de versiones?  Permite compartir tus proyectos, facilitando el trabajo colaborativo Regresar a versiones previas, si encontrás errores o borrás accidentalmente algo.</description>
+    </item>
     
     <item>
       <title>LatinR 2018</title>
