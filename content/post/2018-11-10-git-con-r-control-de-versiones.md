@@ -22,6 +22,7 @@ Suele ser muy útil cuando trabajamos en un desarrollo que requiere permanente a
 * Saber cuál es la versión final de un archivo!
 
 ![](/images/porquegit.png)
+
 [Tomado de swcarpentry](https://swcarpentry.github.io/git-novice/01-basics/)
 
 ### Software de control de versiones
@@ -55,6 +56,7 @@ En la terminal escribir el siguiente código. Las líneas de configuración es n
 ## Repositorio local  y virtual: commit y push
 
 <iframe src="https://player.vimeo.com/video/292640482" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
 
 En todo este proceso solo usamos software libre y sin gastar dinero.
 
