@@ -1,0 +1,35 @@
+---
+title: U17 Women's World Cup
+author: ''
+date: '2018-11-15'
+slug: u17-women-s-world-cup
+categories: []
+tags: [gender]
+authors: []
+---
+<!-- dt <- read.csv("dt_wc17.csv") -->
+<!-- round(prop.table(table(dt$dt))*100) -->
+
+![Estadio Charrúa, Montevideo. Partido Uruguay - Ghana. 13 de noviembre de 2018](/images/URU-GHA_1.jpg)
+
+
+
+El martes comenzó el Mundial de Fútbol Sub 17 en categorías mujeres que se disputa en Uruguay con sedes en Colonia, Maldonado y Montevideo.
+
+Participan 16 selecciones ordenadas en 4 grupos. De lxs 16 seleccionadorxs, hay solo un **31% de mujeres** y un 69% de hombres, es decir, 5 entrenadoras y 11 entrenadores.
+Las selecciones que están dirigidas por una mujer son dos del continente americano: México y Canadá, dos europeas: Alemania y España y una africana: Sudáfrica.
+Si bien Uruguay cuenta con una ayudante técnica, Graciela Barboza, su titular es Ariel Longo. En la anterior participación mundialista de Uruguay -hasta ese entonces la única-  en el año 2012 en el Mundial Sub 17 disputado en Azerbaiyán, la entredora fue Graciela Rebollo.
+
+\centering
+![](/images/germany.png) ![](/images/canada.png) ![](/images/spain.png) ![](/images/mexico.png) 
+![](/images/south-africa.png) ![](/images/brazil_bn.png) ![](/images/cameroon_bn.png) ![](/images/colombia_bn.png) 
+
+
+![](/images/finland_bn.png) ![](/images/ghana_bn.png) ![](/images/japan_bn.png) ![](/images/new-zealand_bn.png) 
+![](/images/north-korea_bn.png) ![](/images/south-korea_bn.png) ![](/images/united-states_bn.png) ![](/images/uruguay_bn.png) 
+
+
+Si comparamos qué ocurre en la competencia análoga de varones, concretamente el pasado Mundial de Fútbol Sub 17 de hombres disputado en India el año pasado, se observa que de las 24 selecciones **todas** fueron dirigidas por hombres. Si bien los torneos de fútbol practicado por mujeres siguen siendo
+un lugar que habilita la participación de hombres en diferentes áreas, lo contrario ocurre en los torneos de fútbol practicado por hombres donde las mujeres casi no tienen cabida.
+
+Luchemos por más mujeres en el fútbol! Porque es el mismo juego y la misma emoción!

@@ -5,10 +5,21 @@
     <link>/</link>
     <description>Recent content on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 10 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 15 Nov 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>U17 Women&#39;s World Cup</title>
+      <link>/post/u17-women-s-world-cup/</link>
+      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/post/u17-women-s-world-cup/</guid>
+      <description>Estadio Charrúa, Montevideo. Partido Uruguay - Ghana. 13 de noviembre de 2018
+ El martes comenzó el Mundial de Fútbol Sub 17 en categorías mujeres que se disputa en Uruguay con sedes en Colonia, Maldonado y Montevideo.
+Participan 16 selecciones ordenadas en 4 grupos. De lxs 16 seleccionadorxs, hay solo un 31% de mujeres y un 69% de hombres, es decir, 5 entrenadoras y 11 entrenadores. Las selecciones que están dirigidas por una mujer son dos del continente americano: México y Canadá, dos europeas: Alemania y España y una africana: Sudáfrica.</description>
+    </item>
     
     <item>
       <title>Git con R. Control de versiones</title>
