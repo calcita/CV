@@ -1,129 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gabriela Mathieu</title>
     <link>/tags/</link>
     <description>Recent content in Tags on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Sat, 10 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <language>en-us</language>
     
 	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>.Rproj</title>
-      <link>/tags/.rproj/</link>
-      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
+      <title>ggplot</title>
+      <link>/tags/ggplot/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/.rproj/</guid>
+      <guid>/tags/ggplot/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Email</title>
-      <link>/tags/email/</link>
-      <pubDate>Wed, 14 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/email/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gender</title>
-      <link>/tags/gender/</link>
-      <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/gender/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Ggplot2</title>
-      <link>/tags/ggplot2/</link>
-      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/ggplot2/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Git</title>
-      <link>/tags/git/</link>
-      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/git/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Gitlab</title>
-      <link>/tags/gitlab/</link>
-      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/gitlab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Leaflet</title>
+      <title>leaflet</title>
       <link>/tags/leaflet/</link>
-      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
       <guid>/tags/leaflet/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Map</title>
-      <link>/tags/map/</link>
-      <pubDate>Fri, 18 May 2018 00:00:00 +0000</pubDate>
+      <title>Rstudio</title>
+      <link>/tags/rstudio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/map/</guid>
+      <guid>/tags/rstudio/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>R</title>
-      <link>/tags/r/</link>
-      <pubDate>Sat, 10 Nov 2018 00:00:00 +0000</pubDate>
+      <title>tidyverse</title>
+      <link>/tags/tidyverse/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
       
-      <guid>/tags/r/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>RLadies</title>
-      <link>/tags/rladies/</link>
-      <pubDate>Mon, 10 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/rladies/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Shiny</title>
-      <link>/tags/shiny/</link>
-      <pubDate>Tue, 18 Sep 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/shiny/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Telegram</title>
-      <link>/tags/telegram/</link>
-      <pubDate>Wed, 13 Dec 2017 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/telegram/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tor</title>
-      <link>/tags/tor/</link>
-      <pubDate>Thu, 15 Feb 2018 00:00:00 +0000</pubDate>
-      
-      <guid>/tags/tor/</guid>
+      <guid>/tags/tidyverse/</guid>
       <description></description>
     </item>
     
