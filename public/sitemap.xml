@@ -1,215 +1,52 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/post/u17-women-s-world-cup/</loc>
-    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+    <loc>/project/project1/</loc>
   </url>
   
   <url>
-    <loc>/post/git-con-r-control-de-versiones/</loc>
-    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/jornadas-fcea/</loc>
-    <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/latinr-2018/</loc>
-    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/rladies-montevideo/</loc>
-    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/mujeres-en-el-parlamento/</loc>
-    <lastmod>2018-05-18T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/navegar/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/alternativa-libre-a-gmail/</loc>
-    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/telegram/</loc>
-    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/2015-07-23-r-rmarkdown/</loc>
-    <lastmod>2017-09-23T21:13:14-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/me/</loc>
+    <loc>/2017/09/15/me/</loc>
     <lastmod>2017-09-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/post/2018-02-13-telegram/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/2018-11-09-jornadas-fcea/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/d1/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/mapamundo/</loc>
-  </url>
-  
-  <url>
-    <loc>/post/ploto/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/.rproj/</loc>
-    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/about/</loc>
-  </url>
-  
-  <url>
-    <loc>/categories/app/</loc>
-    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/authors/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
-    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/email/</loc>
-    <lastmod>2018-02-14T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
     <loc>/</loc>
-    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/gender/</loc>
-    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/ggplot2/</loc>
-    <lastmod>2018-05-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/git/</loc>
-    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/gitlab/</loc>
-    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/internet/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/leaflet/</loc>
-    <lastmod>2018-05-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/map/</loc>
-    <lastmod>2018-05-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2018-11-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/categories/r/</loc>
-    <lastmod>2017-09-23T21:13:14-05:00</lastmod>
-    <priority>0</priority>
+    <loc>/categories/</loc>
   </url>
   
   <url>
-    <loc>/tags/r/</loc>
-    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/tags/ggplot/</loc>
   </url>
   
   <url>
-    <loc>/tags/rladies/</loc>
-    <lastmod>2018-09-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/tags/leaflet/</loc>
   </url>
   
   <url>
-    <loc>/tags/shiny/</loc>
-    <lastmod>2018-09-18T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/project/</loc>
   </url>
   
   <url>
-    <loc>/categories/software-libre/</loc>
-    <lastmod>2018-11-09T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/tags/rstudio/</loc>
   </url>
   
   <url>
     <loc>/tags/</loc>
-    <lastmod>2018-11-10T00:00:00+00:00</lastmod>
-    <priority>0</priority>
   </url>
   
   <url>
-    <loc>/tags/telegram/</loc>
-    <lastmod>2017-12-13T00:00:00+00:00</lastmod>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/tags/tor/</loc>
-    <lastmod>2018-02-15T00:00:00+00:00</lastmod>
-    <priority>0</priority>
+    <loc>/tags/tidyverse/</loc>
   </url>
   
 </urlset>
