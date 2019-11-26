@@ -1,109 +1,81 @@
-baseurl = "http://gabrielamathieu.info/"
+baseURL = "http://gabrielamathieu.info/"
+languageCode = "en-us"
 title = "Gabriela Mathieu"
-# for smart copyright line, leave this blank and check [params.copyright]
-#copyright = ""
-#logo="cc-by-sa.png" #"logo.png"
-theme = "minimo"
-
-disqus = "disqus_4K8SlMaMum"
-#disqusShortname = "disqus_4K8SlMaMum"
+description = "Data Analyst | R Instructor"
+theme = "min_night"
+disqusShortname = ""
 googleAnalytics = ""
-
-Paginate = 10
-preserveTaxonomyNames = true
-
-enableRobotsTXT = true # generate robots.txt
-
-# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
-pygmentsCodefences = true
-
-# Missing translations will default to this content language
-defaultContentLanguage = "en"
-
-[params.info]
-description = "Sobre R y la cultura libre"
-title404 = "Nada aquí!"
-
-[params.assets]
-favicon = "favicon.ico" #"favicon.ico"
-customCSS = ["css/custom.css"]
-customJS = ["js/custom.js"]
-gopher = "" # used in 404 template ( Generator: https://gopherize.me )
-
-[params.copyright]
-prefix = "El contenido de este blog está distribuido bajo licencia  [Creative Commons - Atribución - Compartir Igual 4.0 Internacional](https://creativecommons.org/licenses/by-sa/4.0/) (CC BY-SA 4.0). Sos libre de copiar, distribuir y modificar estos contenidos, siempre y cuando las obras derivadas circulen con las mismas condiciones de esta licencia y hagas la correcta atribución a la autora."
-holder = ""
-startYear = ""
-suffix = ""
-
-
-[params.settings]
-# date & time format: https://golang.org/pkg/time/
-dateFormat = "2006, Jan 02"
-listDateFormat = "2006, Jan 02"
-archiveDateFormat = "Jan 02"
-hideEntryNavigation = ["page"] # boolean / array of sections
-hideSocialMenu = false
-showReadingTime = true
-taxonomyCloudShuffle = true
-
-[params.sidebar]
-enable = true
-sticky = true
-
-[params.widgets]
-homepage = ["recent_posts"]
-sidebar = ["about","taxonomy_cloud"]
-footer = ["social_menu"]
-
-[params.opengraph.facebook]
-admins = [] # array of Facebook IDs
-appID = ""
-pageID = ""
-
-[params.opengraph.twitter]
-page = "" # Twitter page username
-
-[params.seo]
-# Title Separator: - – — · • * ⋆ | ~ « » < >
-titleSeparator = "•"
-
-[params.social]
-codepen = ""
-email = "gmathieu@gmx.com"
-facebook = ""
-github = "calcita"
-gitlab = "calcita"
-instagram = ""
-linkedin = "mathieugabriela"
-twitter = "calcita3"
-telegram = "calcita3"
-google_scholar = ""
-
-[params.social.config]
-platforms = ["github","facebook","twitter","instagram","email","codepen","gitlab","linkedin","telegram","google_scholar"]
-
-[taxonomies]
-author = "authors"
-category = "categories"
-tag = "tags"
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "public/"]
 
 [permalinks]
-page = "/:slug/"
+    post = "/:year/:month/:day/:slug/"
+
+[params]
+    author = "Gabriela Mathieu"
+    description = "Data Analyst | R Instructor"
+    logo = "favicon/logo.png"
+    twitterAuthor = "@calcita3"
+    githubUsername = "calcita"
+    accent = "#386890" # dark colors do best
+    backgroundColor = "#f5f5f5"
+    font = "Mina" # should match the name on Google Fonts!
+    highlight = true
+    highlightStyle = "lakeside-light" # make this match accent
+    highlightLanguages = ["r", "python", "latex", "markdown"]
+
+# adjust these as you see fit
+[[menu.main]]
+    url = "/"
+    name = "Home"
+    weight = 1
 
 [[menu.main]]
-name = "About me"
-weight = -10
-identifier = "me"
-url = "/post/me"
+    url = "/post/"
+    name = "Posts"
+    weight = 2
 
-[blackfriday]
-hrefTargetBlank = true
+[[menu.main]]
+    url = "/project/"
+    name = "Projects"
+    weight = 3
+    
+[[menu.main]]
+    url = "/tags/"
+    name = "Tags"
+    weight = 4
 
-[languages]
-# edit this block for your own language
-[languages.en]
-lang = ["en","es"]
-languageName = "English"
-weight = 1
+# Social icons to be shown on the right-hand side of the navigation bar
+# The "name" field should match the name of the icon to be used
+# The list of available icons can be found at http://fontawesome.io/icons/
+
+[[menu.icon]]
+    url = "mailto:gabrielamathieu@gmx.com"
+    name = "far fa-envelope"
+    weight = 1
+
+[[menu.icon]]
+    url = "https://github.com/calcita"
+    name = "fab fa-github"
+    weight = 2
+
+
+[[menu.icon]]
+    url = "https://www.linkedin.com/mathieugabriela"
+    name = "fab fa-linkedin"
+    weight = 5
+
+[[menu.icon]]
+    url = "https://www.gitlab.com/calcita"
+    name = "fab fa-gitlab"
+    weight = 3
+    
+[[menu.icon]]
+    url = "https://calcita.github.io/R-tutorial/"
+    name = "fab fa-r-project"
+    weight = 4
+
+[[menu.icon]]
+    url = "https://twitter.com/calcita3/"
+    name = "fab fa-twitter"
+    weight = 6
 
