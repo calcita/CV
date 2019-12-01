@@ -7,6 +7,10 @@
   </url>
   
   <url>
+    <loc>/project/project2/</loc>
+  </url>
+  
+  <url>
     <loc>/2017/09/15/me/</loc>
     <lastmod>2017-09-15T00:00:00+00:00</lastmod>
   </url>
@@ -26,6 +30,10 @@
   </url>
   
   <url>
+    <loc>/tags/ech/</loc>
+  </url>
+  
+  <url>
     <loc>/tags/ggplot/</loc>
   </url>
   
@@ -39,6 +47,14 @@
   
   <url>
     <loc>/tags/rstudio/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/srvyr/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/survey/</loc>
   </url>
   
   <url>
