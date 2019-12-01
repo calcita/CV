@@ -11,6 +11,10 @@
   </url>
   
   <url>
+    <loc>/project/project3/</loc>
+  </url>
+  
+  <url>
     <loc>/2017/09/15/me/</loc>
     <lastmod>2017-09-15T00:00:00+00:00</lastmod>
   </url>
@@ -26,11 +30,20 @@
   </url>
   
   <url>
+    <loc>/project/project3/</loc>
+    <priority>0</priority>
+  </url>
+  
+  <url>
     <loc>/categories/</loc>
   </url>
   
   <url>
     <loc>/tags/ech/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/femicide/</loc>
   </url>
   
   <url>
@@ -47,6 +60,10 @@
   
   <url>
     <loc>/tags/rstudio/</loc>
+  </url>
+  
+  <url>
+    <loc>/tags/shiny/</loc>
   </url>
   
   <url>
