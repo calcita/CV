@@ -60,7 +60,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "public/"]
 
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/mathieugabriela"
+    url = "https://www.linkedin.com/in/mathieugabriela/"
     name = "fab fa-linkedin"
     weight = 5
 
