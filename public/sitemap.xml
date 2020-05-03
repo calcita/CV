@@ -4,23 +4,81 @@
   
   <url>
     <loc>/project/project1/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/project2/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/project/project3/</loc>
-  </url>
-  
-  <url>
-    <loc>/2017/09/15/me/</loc>
-    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ggplot/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/git/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/project/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/rstudio/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/tidyverse/</loc>
+    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/ech/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/srvyr/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/survey/</loc>
+    <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/femicide/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/tags/shiny/</loc>
+    <lastmod>2018-03-03T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/09/15/me/</loc>
     <lastmod>2017-09-15T00:00:00+00:00</lastmod>
   </url>
   
@@ -36,50 +94,6 @@
   
   <url>
     <loc>/categories/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/ech/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/femicide/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/ggplot/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/leaflet/</loc>
-  </url>
-  
-  <url>
-    <loc>/project/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/rstudio/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/shiny/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/srvyr/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/survey/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-  </url>
-  
-  <url>
-    <loc>/tags/tidyverse/</loc>
   </url>
   
 </urlset>
