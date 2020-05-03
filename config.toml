@@ -12,7 +12,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "public/"]
 
 [params]
     author = "Gabriela Mathieu"
-    description = "Data Analyst | R Instructor"
+    description = "R programmer and teacher"
     logo = "favicon/logo.png"
     twitterAuthor = "@calcita3"
     githubUsername = "calcita"
