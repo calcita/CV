@@ -49,7 +49,7 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "public/"]
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:gabrielamathieu@gmx.com"
+    url = "mailto:gmathieu@gmx.com"
     name = "far fa-envelope"
     weight = 1
 
