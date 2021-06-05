@@ -39,11 +39,11 @@ En windows esto es más sencillo porque Rstudio te permite en la pestaña 'Tools
 
 Si querés actualizar R pero aún no tenés instalada ninguna versión 4.*, leé la siguiente sección de este post.
 
-# Actualizar R de 3.* a 4.0.*
+# Actualizar R de 3.* a 4.0.* o instalar desde cero la 4.0.*
 
-Si querés actualizar R pero no a la última versión (en este caso es la 4.1.*) por los problemas que da ggplot en RStudio, podés seguir los siguientes pasos.
+Si querés actualizar R pero no a la última versión (en este caso es la 4.1.*) por los problemas que da ggplot en RStudio, podés seguir los siguientes pasos. Si ya tenés instalada una versión de R comenzá desde el paso 0, si no tenés ninguna, comenzá desde el paso 1.
 
-Supongamos que tenés la version 3.6.3 y querés actualizar a 4.0.5. Para no tener problemas con versiones de paquetes primero te aconsejo desinstalar R. La primera línea desinstala R y la segunda elimina paquetes ya no necesarios.
+0- Supongamos que tenés la version 3.6.3 y querés actualizar a 4.0.5. Para no tener problemas con versiones de paquetes primero te aconsejo desinstalar R. La primera línea desinstala R y la segunda elimina paquetes ya no necesarios.
 
     sudo apt-get remove r-base-core
     sudo apt-get autoremove 

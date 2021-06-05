@@ -27,10 +27,10 @@ sudo apt-get autoremove </code></pre>
 <p>En windows esto es más sencillo porque Rstudio te permite en la pestaña ‘Tools’ elegir cuál versión usar, pero esto no aparece en Linux.</p>
 <p>Si querés actualizar R pero aún no tenés instalada ninguna versión 4.*, leé la siguiente sección de este post.</p>
 </div>
-<div id="actualizar-r-de-3.-a-4.0." class="section level1">
-<h1>Actualizar R de 3.* a 4.0.*</h1>
-<p>Si querés actualizar R pero no a la última versión (en este caso es la 4.1.*) por los problemas que da ggplot en RStudio, podés seguir los siguientes pasos.</p>
-<p>Supongamos que tenés la version 3.6.3 y querés actualizar a 4.0.5. Para no tener problemas con versiones de paquetes primero te aconsejo desinstalar R. La primera línea desinstala R y la segunda elimina paquetes ya no necesarios.</p>
+<div id="actualizar-r-de-3.-a-4.0.-o-instalar-desde-cero-la-4.0." class="section level1">
+<h1>Actualizar R de 3.* a 4.0.* o instalar desde cero la 4.0.*</h1>
+<p>Si querés actualizar R pero no a la última versión (en este caso es la 4.1.*) por los problemas que da ggplot en RStudio, podés seguir los siguientes pasos. Si ya tenés instalada una versión de R comenzá desde el paso 0, si no tenés ninguna, comenzá desde el paso 1.</p>
+<p>0- Supongamos que tenés la version 3.6.3 y querés actualizar a 4.0.5. Para no tener problemas con versiones de paquetes primero te aconsejo desinstalar R. La primera línea desinstala R y la segunda elimina paquetes ya no necesarios.</p>
 <pre><code>sudo apt-get remove r-base-core
 sudo apt-get autoremove </code></pre>
 <p>Para instalar una versión 4.* necesitamos actualizar el repositorio desde donde instalar R. Seguimos las instrucciones del <a href="https://cran.r-project.org/bin/linux/ubuntu/">CRAN</a> pero solo los primeros 3 pasos.</p>
