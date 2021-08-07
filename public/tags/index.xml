@@ -2,93 +2,111 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gabriela Mathieu</title>
-    <link>/tags/</link>
+    <link>https://gabrielamathieu.netlify.app/tags/</link>
     <description>Recent content in Tags on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Sun, 01 Mar 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gabrielamathieu.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>install</title>
+      <link>https://gabrielamathieu.netlify.app/tags/install/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabrielamathieu.netlify.app/tags/install/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://gabrielamathieu.netlify.app/tags/ubuntu/</link>
+      <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://gabrielamathieu.netlify.app/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>ggplot</title>
-      <link>/tags/ggplot/</link>
+      <link>https://gabrielamathieu.netlify.app/tags/ggplot/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ggplot/</guid>
+      <guid>https://gabrielamathieu.netlify.app/tags/ggplot/</guid>
       <description></description>
     </item>
     
     <item>
       <title>git</title>
-      <link>/tags/git/</link>
+      <link>https://gabrielamathieu.netlify.app/tags/git/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/git/</guid>
+      <guid>https://gabrielamathieu.netlify.app/tags/git/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Rstudio</title>
-      <link>/tags/rstudio/</link>
+      <link>https://gabrielamathieu.netlify.app/tags/rstudio/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/rstudio/</guid>
+      <guid>https://gabrielamathieu.netlify.app/tags/rstudio/</guid>
       <description></description>
     </item>
     
     <item>
       <title>tidyverse</title>
-      <link>/tags/tidyverse/</link>
+      <link>https://gabrielamathieu.netlify.app/tags/tidyverse/</link>
       <pubDate>Sun, 01 Mar 2020 00:00:00 +0000</pubDate>
       
-      <guid>/tags/tidyverse/</guid>
+      <guid>https://gabrielamathieu.netlify.app/tags/tidyverse/</guid>
       <description></description>
     </item>
     
     <item>
       <title>ech</title>
-      <link>/tags/ech/</link>
+      <link>https://gabrielamathieu.netlify.app/tags/ech/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/ech/</guid>
+      <guid>https://gabrielamathieu.netlify.app/tags/ech/</guid>
       <description></description>
     </item>
     
     <item>
       <title>srvyr</title>
-      <link>/tags/srvyr/</link>
+      <link>https://gabrielamathieu.netlify.app/tags/srvyr/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/srvyr/</guid>
+      <guid>https://gabrielamathieu.netlify.app/tags/srvyr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>survey</title>
-      <link>/tags/survey/</link>
+      <link>https://gabrielamathieu.netlify.app/tags/survey/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/survey/</guid>
+      <guid>https://gabrielamathieu.netlify.app/tags/survey/</guid>
       <description></description>
     </item>
     
     <item>
       <title>femicide</title>
-      <link>/tags/femicide/</link>
+      <link>https://gabrielamathieu.netlify.app/tags/femicide/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/femicide/</guid>
+      <guid>https://gabrielamathieu.netlify.app/tags/femicide/</guid>
       <description></description>
     </item>
     
     <item>
       <title>shiny</title>
-      <link>/tags/shiny/</link>
+      <link>https://gabrielamathieu.netlify.app/tags/shiny/</link>
       <pubDate>Sat, 03 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/tags/shiny/</guid>
+      <guid>https://gabrielamathieu.netlify.app/tags/shiny/</guid>
       <description></description>
     </item>
     

@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>srvyr on Gabriela Mathieu</title>
-    <link>/tags/srvyr/</link>
+    <link>https://gabrielamathieu.netlify.app/tags/srvyr/</link>
     <description>Recent content in srvyr on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="/tags/srvyr/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://gabrielamathieu.netlify.app/tags/srvyr/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Paquete ech</title>
-      <link>/project/project2/</link>
+      <link>https://gabrielamathieu.netlify.app/project/project2/</link>
       <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
       
-      <guid>/project/project2/</guid>
+      <guid>https://gabrielamathieu.netlify.app/project/project2/</guid>
       <description></description>
     </item>
     

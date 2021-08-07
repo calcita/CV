@@ -3,97 +3,113 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/project/project1/</loc>
+    <loc>https://gabrielamathieu.netlify.app/project/project1/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/project2/</loc>
+    <loc>https://gabrielamathieu.netlify.app/project/project2/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/project3/</loc>
+    <loc>https://gabrielamathieu.netlify.app/project/project3/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/</loc>
+    <loc>https://gabrielamathieu.netlify.app/categories/</loc>
+    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/2021/06/05/r/</loc>
+    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/</loc>
+    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/tags/install/</loc>
+    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/post/</loc>
+    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/categories/r/</loc>
+    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/tags/</loc>
+    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/tags/ubuntu/</loc>
+    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/tags/ggplot/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/ggplot/</loc>
+    <loc>https://gabrielamathieu.netlify.app/tags/git/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/git/</loc>
+    <loc>https://gabrielamathieu.netlify.app/project/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/project/</loc>
+    <loc>https://gabrielamathieu.netlify.app/tags/rstudio/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/rstudio/</loc>
+    <loc>https://gabrielamathieu.netlify.app/tags/tidyverse/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/</loc>
-    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/tidyverse/</loc>
-    <lastmod>2020-03-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/ech/</loc>
+    <loc>https://gabrielamathieu.netlify.app/tags/ech/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/srvyr/</loc>
+    <loc>https://gabrielamathieu.netlify.app/tags/srvyr/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/survey/</loc>
+    <loc>https://gabrielamathieu.netlify.app/tags/survey/</loc>
     <lastmod>2018-09-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/femicide/</loc>
+    <loc>https://gabrielamathieu.netlify.app/tags/femicide/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/tags/shiny/</loc>
+    <loc>https://gabrielamathieu.netlify.app/tags/shiny/</loc>
     <lastmod>2018-03-03T00:00:00+00:00</lastmod>
   </url>
   
   <url>
-    <loc>/2017/09/15/me/</loc>
+    <loc>https://gabrielamathieu.netlify.app/2017/09/15/me/</loc>
     <lastmod>2017-09-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/post/</loc>
-    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/project/project3/</loc>
-    <priority>0</priority>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
   </url>
   
 </urlset>
