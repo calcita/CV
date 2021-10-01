@@ -13,10 +13,10 @@
     
     <item>
       <title>Downgrade (desactualizar) R en Ubuntu</title>
-      <link>https://gabrielamathieu.netlify.app/2021/06/05/r/</link>
+      <link>https://gabrielamathieu.netlify.app/post/r/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gabrielamathieu.netlify.app/2021/06/05/r/</guid>
+      <guid>https://gabrielamathieu.netlify.app/post/r/</guid>
       <description>Se me actualizó R a la versión 4.1 con otras actualizaciones de Ubuntu y no me percaté hasta que intenté usar ggplot2 y se rompió. En varios grupos de R a otras personas le estaba lo mismo ya que la versión estable de Rstudio aún no es compatible 100% con la versión 4.1 de R.
 Downgrade R Para volver a la versión anterior de R, adapté la sugerencia de este post.</description>
     </item>
