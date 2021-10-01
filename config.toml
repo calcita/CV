@@ -1,81 +1,89 @@
 baseURL = "https://gabrielamathieu.netlify.app/"
 languageCode = "en-us"
 title = "Gabriela Mathieu"
-description = "R programmer and teacher"
-theme = "min_night"
+description = "Data analyst |Data scientist | Teacher"
+theme = "hugo-developer-portfolio"
 disqusShortname = ""
 googleAnalytics = ""
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "public/"]
+#ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "public/"]
 
-[permalinks]
-    post = "/:year/:month/:day/:slug/"
+
+# Remove this when using normally
+# themesDir = "../../" 
+# `
+#[module]
+ # [[module.imports]]
+  #  path = "github.com/samrobbins85/hugo-developer-portfolio"
+
+# Plugins
+[params.plugins]
+
+  # CSS Plugins
+  [[params.plugins.css]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css"
+
+  # JS Plugins
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"
+  [[params.plugins.js]]
+  URL = "https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"
+
+
+# navigation
+[menu]
+
+  [[menu.main]]
+  name = "About"
+  URL = "about"
+  weight=1
+
+  [[menu.main]]
+  name = "Blog"
+  URL = "blog"
+  weight=2
+
+  [[menu.main]]
+  name = "Portfolio"
+  URL = "portfolio"
+  weight=3
+
+  [[menu.main]]
+  name = "Services"
+  URL = "services"
+  weight=4
+  
+  [[menu.main]]
+  name = "Contact"
+  URL = "contact"
+  weight=5
+
 
 [params]
-    author = "Gabriela Mathieu"
-    description = "R programmer and teacher"
-    logo = "favicon/logo.png"
-    twitterAuthor = "@calcita3"
-    githubUsername = "calcita"
-    accent = "#386890" # dark colors do best
-    backgroundColor = "#f5f5f5"
-    font = "Mina" # should match the name on Google Fonts!
-    highlight = true
-    highlightStyle = "lakeside-light" # make this match accent
-    highlightLanguages = ["r", "python", "latex", "markdown"]
-
-# adjust these as you see fit
-[[menu.main]]
-    url = "/"
-    name = "Home"
-    weight = 1
-
-[[menu.main]]
-    url = "/post/"
-    name = "Posts"
-    weight = 2
-
-[[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 3
-    
-[[menu.main]]
-    url = "/tags/"
-    name = "Tags"
-    weight = 4
-
-# Social icons to be shown on the right-hand side of the navigation bar
-# The "name" field should match the name of the icon to be used
-# The list of available icons can be found at http://fontawesome.io/icons/
-
-[[menu.icon]]
-    url = "mailto:gmathieu@gmx.com"
-    name = "far fa-envelope"
-    weight = 1
-
-[[menu.icon]]
-    url = "https://github.com/calcita"
-    name = "fab fa-github"
-    weight = 2
+home = "Home"
+# Meta data
+description = "Data scientist and teacher"
+author = "Gabriela Mathieu"
 
 
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/mathieugabriela/"
-    name = "fab fa-linkedin"
-    weight = 5
+  [params.contact]
+  enable = true
+  formAction = "" #contact form works with formspree.io
 
-[[menu.icon]]
-    url = "https://www.gitlab.com/calcita"
-    name = "fab fa-gitlab"
-    weight = 3
-    
-[[menu.icon]]
-    url = "https://calcita.github.io/R-tutorial/"
-    name = "fab fa-r-project"
-    weight = 4
+  [params.footer]
+  email = "gabrielamathieu@gmx.com"
+  address = "Montevideo, Uruguay"
+  googlemaps = ""
 
-[[menu.icon]]
-    url = "https://twitter.com/calcita3/"
-    name = "fab fa-twitter"
-    weight = 6
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = false
+    hl_Lines = ""
+    lineNoStart = 1
+    lineNos = true
+    lineNumbersInTable = true
+    noClasses = true
+    style = "rainbow_dash"
+    tabWidth = 4
+
 

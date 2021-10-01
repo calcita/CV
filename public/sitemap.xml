@@ -23,12 +23,7 @@
   </url>
   
   <url>
-    <loc>https://gabrielamathieu.netlify.app/2021/06/05/r/</loc>
-    <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/</loc>
+    <loc>https://gabrielamathieu.netlify.app/post/r/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
   </url>
   
@@ -58,6 +53,16 @@
   </url>
   
   <url>
+    <loc>https://gabrielamathieu.netlify.app/portfolio/hugo-portfolio-website/</loc>
+    <lastmod>2020-06-19T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/categories/web-dev/</loc>
+    <lastmod>2020-06-19T23:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://gabrielamathieu.netlify.app/tags/ggplot/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
   </url>
@@ -80,6 +85,31 @@
   <url>
     <loc>https://gabrielamathieu.netlify.app/tags/tidyverse/</loc>
     <lastmod>2020-03-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/blog/first-blog/</loc>
+    <lastmod>2019-12-31T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/about/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/blog/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/contact/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/portfolio/</loc>
+    <lastmod>2019-05-12T12:14:34+06:00</lastmod>
   </url>
   
   <url>
@@ -108,7 +138,12 @@
   </url>
   
   <url>
-    <loc>https://gabrielamathieu.netlify.app/2017/09/15/me/</loc>
+    <loc>https://gabrielamathieu.netlify.app/</loc>
+    <lastmod>2019-10-26T15:26:15+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://gabrielamathieu.netlify.app/post/me/</loc>
     <lastmod>2017-09-15T00:00:00+00:00</lastmod>
   </url>
   

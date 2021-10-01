@@ -1,0 +1,120 @@
+---
+banner:
+  title: Gabriela Mathieu
+social:
+  twitter: ""
+  linkedin: mathieugabriela
+  github: calcita
+  gitlab: calcita
+  facebook: ""
+  instagram: ""
+  gmail: calciopdu
+about:
+  enable: true
+  content: Data Analyst / Scientist
+  button:
+    btnText: Find out more
+    URL: "/about"
+skill:
+  enable: true
+  item:
+    - title: R
+      logo: logos/r_logo.png
+      description: Over 10 years experience
+    - title: Python
+      logo: logos/python.svg
+      description: Using python in specific projects
+    - title: SQL
+      logo: logos/sql.svg
+      description: PostgreSQL / MySQL
+    - title: git
+      logo: logos/git.svg
+      description: Version control of all my work
+    - title: LaTex
+      logo: logos/latex.svg
+      description: 
+    - title: Markdown
+      logo: logos/markdown_logo.png
+      description: 
+    - title: JavaScript
+      logo: logos/javascript.svg
+      description: 
+    - title: CSS
+      logo: logos/css.svg
+      description:   
+    - title: HTML5
+      logo: logos/html5.svg
+      description: 
+    - title: Docker
+      logo: logos/docker.svg
+      description: 
+experience:
+  enable: true
+  item:
+    - logo: logos/UNESCO_logo.svg
+      title: GEM Report’s statistical tables and WIDE code
+      company: UNESCO
+      duration: 2019-2020
+    - logo: logos/larcg.svg
+      title: Data manager from renal cancer data base
+      company: Latin American Renal Cancer Group
+      duration: 2020-
+    - logo: logos/mides_logo.png
+      title: Data analyst/scientist
+      company: Ministerio de Desarrollo Social
+      duration: 2008-
+    - logo: logos/logo_opcion.png
+      title: Sampler - ICT in family farming systems survey
+      company: Opción Consultores
+      duration: abril 2021
+    - logo: logos/logo_opcion.png
+      title: Sampler - Childhood, time use and gender survey
+      company: Opción Consultores
+      duration: julio 2021
+    - logo: logos/fcs_logo3.png
+      title: Asistente de investigación FSE - Proyecto ANII. 
+      company: Facultad de Ciencias Sociales (UdelaR)
+      duration: September-October 2015
+teaching:
+  enable: true
+  item:
+    - logo: logos/logo_fcea.png
+      title: Statistics teacher
+      company: Facultad de Cs.Económicas (UdelaR)
+      duration: 2009-2015
+    - logo: logos/logo_fcs.png
+      title: R/Markdown teacher
+      company: EP - Facultad de Ciencias Sociales (UdelaR)
+      duration: 2010-2020
+    - logo: logos/logo_fcs.png
+      title: R teacher
+      company: Maestría en Demografía - FCS (UdelaR)
+      duration: 2021
+    - logo: logos/logo_ucu.png
+      title: R teacher
+      company: EIM - Universidad Católica del Uruguay
+      duration: 2019-2021
+education:
+  enable: false
+  item:
+    - title: BSc Computer Science
+      year: 2018 - Present
+      academy: Durham University
+      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
+certifications:
+  enable: false
+  item:
+    - title: Microsoft Azure Fundamentals
+      image: https://res.cloudinary.com/samrobbins/image/upload/v1592501459/microsoft-certified-fundamentals-badge_cpcgyn.svg
+      url: https://www.youracclaim.com/badges/b4cf7a86-eb83-478e-bfd0-9f427c3474a0/public_url
+hackathons:
+  enable: true
+  item:
+    - title: ech package
+      description: Caja de herramientas para procesar la ECH (Uruguay)
+      image: logos/ech_logo.png
+      url: https://calcita.github.io/ech/
+    - title: Femicide dashboard
+      description: ...
+      image: logos/femicide_shiny.png
+      url: https://calcita.shinyapps.io/VBG_UY/
