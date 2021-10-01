@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<style>
+    html {
+        height: 100vh;
+    }
+    body {
+        min-height: 100vh;
+        display: grid;
+        grid-template-rows: 1fr auto;
+    }
+    .footer {
+        grid-row-start: 2;
+        grid-row-end: 3;
+    }
+</style>
+<html lang="en-us"><head>
+  <meta charset="utf-8">
+  <title>Gabriela Mathieu</title>
+
+  <!-- mobile responsive meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <meta name="description" property="og:description" content="Data scientist and teacher">
+  <meta name="image" property="og:image" content="/">
+  <meta name="author" content="Gabriela Mathieu">
+  <meta name="generator" content="Hugo 0.74.3" />
+
+  <!-- plugins -->
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/css/uikit.min.css ">
+  
+
+  <!-- Main Stylesheet -->
+  
+  <link rel="stylesheet" href="/css/style.min.css" integrity="" media="screen">
+  
+  <link rel="stylesheet" href="/css/syntax.min.css" integrity="" media="screen">
+
+  <script src="https://cdn.jsdelivr.net/npm/mailgo@0.9.14/dist/mailgo.min.js" defer></script>
+
+  <!--Favicon-->
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body class="post">
+    <div class="wrapper"><div uk-sticky="sel-target: .uk-navbar-container; cls-active: uk-navbar-sticky; bottom: #transparent-sticky-navbar">
+    <nav class="uk-navbar-container uk-margin" uk-navbar="mode: click;" style="padding-right: 3rem">
+        <div class="uk-navbar-right">
+            <ul class="uk-navbar-nav uk-visible@s">
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/"> Home
+                        </a></li>
+
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/about">About</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/blog">Blog</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/portfolio">Portfolio</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/Services">Services</a></li>
+                
+                
+                
+                
+                
+                
+                
+                
+                
+                <li><a style="font-size: 18px; text-transform: none" href="/contact">Contact</a></li>
+                
+                
+            </ul>
+
+            <a class="uk-navbar-toggle uk-hidden@s" uk-toggle="target: #sidenav" uk-navbar-toggle-icon href="#"></a>
+
+        </div>
+    </nav>
+</div>
+
+<div id="sidenav" uk-offcanvas="overlay: true">
+    <div class="uk-offcanvas-bar uk-flex uk-flex-column">
+
+        <ul class="uk-nav uk-nav-primary uk-nav-center uk-margin-auto-vertical">
+            
+            <li><a style="font-size: 18px" href="https://gabrielamathieu.netlify.app/"> Home </a></li>
+
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/about">About</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/blog">Blog</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/portfolio">Portfolio</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/Services">Services</a></li>
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            <li><a style="font-size: 18px" href="/contact">Contact</a></li>
+            
+            
+        </ul>
+
+    </div>
+</div>
+
+
+
+
+<style>
+  p {
+    margin: 0
+  }
+
+  .people-wrap {
+    display: inline-flex;
+    margin-top: 10px;
+  }
+
+  .people-image {
+    display: block;
+    border-radius: 50%;
+     
+  }
+
+  .people {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .name {
+    margin: auto;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000;
+    font-family: Roboto, sans-serif;
+    line-height: 1.2;
+    margin-top: 2rem;
+  }
+
+  .content img {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom:30px;
+  }
+
+  p { margin-bottom: 1em; }
+
+  body p:last-child { margin-bottom: 0em; }
+
+  img.skills{
+    height: 80px;
+  }
+
+  @media only screen and (min-width: 960px) {
+    .content img{max-width:60vw; max-height:60vh}
+
+  .content img{
+      max-width:60vw;
+      max-height:60vh
+  }
+  }
+  .content{
+      width: 90vw;
+      max-width: 1200px
+  }
+
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+  }
+
+</style>
+
+
+<section>
+  <div class="uk-container uk-margin-large-bottom uk-margin-medium-top">
+    <h1 class="uk-text-center uk-heading-medium">Downgrade (desactualizar) R en Ubuntu</h1>
+    <p class="uk-text-center uk-text-lead"></p>
+    <p class="uk-text-center">Published on Jun 05, 2021</p>
+    <p class="uk-text-center">Reading time: 4 minutes.</p>
+    
+
+    <hr class="full-width">
+    
+
+    <div class="content">
+      
+
+
+<p>Se me actualizó R a la versión 4.1 con otras actualizaciones de Ubuntu y no me percaté hasta que intenté usar ggplot2 y se rompió. En varios grupos de R a otras personas le estaba lo mismo ya que la versión estable de Rstudio aún no es compatible 100% con la versión 4.1 de R.</p>
+<hr />
+<div id="downgrade-r" class="section level1">
+<h1>Downgrade R</h1>
+<p>Para volver a la versión anterior de R, adapté la sugerencia de este <a href="https://stackoverflow.com/questions/32984676/how-to-downgrade-r-version-3-2-2-to-version-3-1-1-on-ubuntu">post</a>. Para pasar de R 4.1 a R 4.0.5, los pasos que seguí fueron los siguientes:</p>
+<p>1- Desinstalo la versión que tenía instalada de R.</p>
+<pre><code>sudo apt-get remove r-base-core
+sudo apt-get autoremove </code></pre>
+<p>2- Busco el nombre de la versión a instalar.</p>
+<pre><code>apt-cache showpkg r-base</code></pre>
+<p>Allí me salen todas las versiones de R 4.* disponibles.</p>
+<!-- ![](img/versiones_disponibles.png) -->
+<p>3- Instalo la versión inmediatamente anterior a 4.1, la 4.0.5 de marzo de 2021.</p>
+<pre><code>sudo apt-get install r-base-core=4.0.5-1.2004.0</code></pre>
+<p>Así quedó instalado R, podés comprobarlo escribiendo R en la terminal de Ubuntu o abriendo RStudio.</p>
+<p>En windows esto es más sencillo porque Rstudio te permite en la pestaña ‘Tools’ elegir cuál versión usar, pero esto no aparece en Linux.</p>
+<p>Si querés actualizar R pero aún no tenés instalada ninguna versión 4.*, leé la siguiente sección de este post.</p>
+</div>
+<div id="actualizar-r-de-3.-a-4.0.-o-instalar-desde-cero-la-4.0." class="section level1">
+<h1>Actualizar R de 3.* a 4.0.* o instalar desde cero la 4.0.*</h1>
+<p>Si querés actualizar R pero no a la última versión (en este caso es la 4.1.*) por los problemas que da ggplot en RStudio, podés seguir los siguientes pasos. Si ya tenés instalada una versión de R comenzá desde el paso 0, si no tenés ninguna, comenzá desde el paso 1.</p>
+<p>0- Supongamos que tenés la version 3.6.3 y querés actualizar a 4.0.5. Para no tener problemas con versiones de paquetes primero te aconsejo desinstalar R. La primera línea desinstala R y la segunda elimina paquetes ya no necesarios.</p>
+<pre><code>sudo apt-get remove r-base-core
+sudo apt-get autoremove </code></pre>
+<p>Para instalar una versión 4.* necesitamos actualizar el repositorio desde donde instalar R. Seguimos las instrucciones del <a href="https://cran.r-project.org/bin/linux/ubuntu/">CRAN</a> pero solo los primeros 3 pasos.</p>
+<p>1 - actualizo indices</p>
+<pre><code>sudo apt update -qq</code></pre>
+<p>2- instalo dos paquetes necesarios</p>
+<pre><code>sudo apt install --no-install-recommends software-properties-common dirmngr</code></pre>
+<p>3- importo la clave del repo (by Michael Rutter)</p>
+<pre><code>sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys E298A3A825C0D65DFD57CBB651716619E084DAB9</code></pre>
+<p>4- Agrego el repo de CRAN para R 4.0 según la versión de Ubuntu que estoy usando (‘focal’, ‘groovy’, o ‘bionic’). En mi caso tengo Ubuntu 20.4 así que debo elegir ‘focal’.</p>
+<pre><code>sudo add-apt-repository &quot;deb https://cloud.r-project.org/bin/linux/ubuntu focal-cran40/&quot;</code></pre>
+<p>5 - En este punto si no definimos qué versión queremos instalar, se instalará la úlitma. Por lo tanto, debemos buscar el nombre de la versión a instalar:</p>
+<pre><code>apt-cache showpkg r-base</code></pre>
+<p>6 - Instalo la versión inmediatamente anterior a 4.1, en este caso es la 4.0.5</p>
+<pre><code>sudo apt-get install r-base-core=4.0.5-1.2004.0</code></pre>
+<p>Ojo que en las actualizaciones de software de Ubuntu te va a ofrecer actualizar R, decile que no hasta tanto no se actualice RStudio para solucionar los problemas mencionados.</p>
+<!-- Adicionalmente podemos instalar paquetes de la terminal -->
+<!--     sudo add-apt-repository ppa:c2d4u.team/c2d4u4.0+ -->
+<!--     sudo apt update -->
+<!--     sudo apt install r-cran-rgl r-cran-rjags r-cran-snow r-cran-ggplot2 r-cran-igraph r-cran-lme4 r-cran-rjava r-cran-devtools r-cran-roxygen2 r-cran-rjava     -->
+<!-- Ver  -->
+<!-- https://rtask.thinkr.fr/installation-of-r-4-0-on-ubuntu-20-04-lts-and-tips-for-spatial-packages/ -->
+</div>
+
+    </div>
+  </div>
+  </div>
+</section>
+
+
+
+    </div>
+<footer class="footer">
+  <div class="uk-container">
+
+
+    <div class="uk-grid-small uk-child-width-1-4@m uk-text-center uk-flex-center uk-margin-medium-bottom" uk-grid>
+      <div class="uk-margin-small-bottom">
+        <h5 class="uk-margin-small-bottom">Email</h5>
+        <a href="mailto:gabrielamathieu@gmx.com">gabrielamathieu@gmx.com</a>
+
+      </div>
+      <div>
+        <h5 class="uk-margin-small-bottom">Address</h5>
+                  <div uk-lightbox>
+                    <a href="" data-caption="Montevideo, Uruguay"
+                      data-type="iframe">Montevideo, Uruguay</a>
+      </div>
+      </div>
+
+    </div>
+
+
+
+
+
+  <div class="footer-copyright uk-text-center" style="padding-bottom: 1rem">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/cc.svg" style="height: 1.2em;
+  width: 1.2em;" alt="Creative Commons">
+    <img loading="lazy" src="https://mirrors.creativecommons.org/presskit/icons/by.svg" style="height: 1.2em;
+  width: 1.2em;" alt="CC-BY">
+    2020
+    Gabriela Mathieu
+
+
+  </div>
+</footer>
+
+
+<!-- JS Plugins -->
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/uikit@3.2.6/dist/js/uikit-icons.min.js"></script>
+
+</body>
+</html>

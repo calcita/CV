@@ -13,20 +13,20 @@
     
     <item>
       <title>Downgrade (desactualizar) R en Ubuntu</title>
-      <link>https://gabrielamathieu.netlify.app/2021/06/05/r/</link>
+      <link>https://gabrielamathieu.netlify.app/post/r/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://gabrielamathieu.netlify.app/2021/06/05/r/</guid>
+      <guid>https://gabrielamathieu.netlify.app/post/r/</guid>
       <description>Se me actualizó R a la versión 4.1 con otras actualizaciones de Ubuntu y no me percaté hasta que intenté usar ggplot2 y se rompió. En varios grupos de R a otras personas le estaba lo mismo ya que la versión estable de Rstudio aún no es compatible 100% con la versión 4.1 de R.
 Downgrade R Para volver a la versión anterior de R, adapté la sugerencia de este post.</description>
     </item>
     
     <item>
       <title>About me </title>
-      <link>https://gabrielamathieu.netlify.app/2017/09/15/me/</link>
+      <link>https://gabrielamathieu.netlify.app/post/me/</link>
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://gabrielamathieu.netlify.app/2017/09/15/me/</guid>
+      <guid>https://gabrielamathieu.netlify.app/post/me/</guid>
       <description>I have 10+ years of R programming experience: data analysis and visualization, statistical analysis and also teaching.
 My work experience includes: Statistical analysis of economy and social information with a geospatial approach, Teaching Assistant in Statistics and R software Teaching Instructor. I am from Uruguay and I am living in Montevideo.
 I am currently completing the Diploma in Gender and Politics of Equality of Flacso, to specialize in the analysis of data with a gender perspective.</description>
