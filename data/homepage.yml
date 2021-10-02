@@ -118,3 +118,7 @@ hackathons:
       description: ...
       image: logos/femicide_shiny.png
       url: https://calcita.shinyapps.io/VBG_UY/
+    - title: Research
+      description: Master thesis
+      image: logos/mosaic_delmira.jpg
+      url: https://calcita.github.io/feminicide-thesis/

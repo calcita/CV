@@ -1,7 +1,7 @@
 baseURL = "https://gabrielamathieu.netlify.app/"
 languageCode = "en-us"
 title = "Gabriela Mathieu"
-description = "Data analyst |Data scientist | Teacher"
+description = "Data analyst | Teacher"
 theme = "hugo-developer-portfolio"
 disqusShortname = ""
 googleAnalytics = ""
@@ -61,7 +61,7 @@ googleAnalytics = ""
 [params]
 home = "Home"
 # Meta data
-description = "Data scientist and teacher"
+description = "Data analyst and teacher"
 author = "Gabriela Mathieu"
 
 
