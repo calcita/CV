@@ -25,7 +25,7 @@ skill:
       logo: logos/python.svg
       description: Using python in specific projects
     - title: SQL
-      logo: logos/sql.svg
+      logo: logos/postgresql.svg
       description: PostgreSQL / MySQL
     - title: git
       logo: logos/git.svg
@@ -37,22 +37,25 @@ skill:
       logo: logos/markdown_logo.png
       description: 
     - title: JavaScript
-      logo: logos/javascript.svg
+      logo: logos/Javascript.svg
       description: 
     - title: CSS
       logo: logos/css.svg
       description:   
     - title: HTML5
-      logo: logos/html5.svg
+      logo: logos/html5.png
       description: 
     - title: Docker
-      logo: logos/docker.svg
-      description: 
+      logo: logos/Docker.svg
+      description: Shiny app deploy
+    - title: Netlify
+      logo: logos/netlify.svg
+      description: Slides and web deploy
 experience:
   enable: true
   item:
     - logo: logos/UNESCO_logo.svg
-      title: GEM Report’s statistical tables and WIDE code
+      title: Global Education Monitoring Report’s statistical tables and WIDE code optimization (R/Stata)
       company: UNESCO
       duration: 2019-2020
     - logo: logos/larcg.svg
@@ -73,34 +76,44 @@ experience:
       duration: julio 2021
     - logo: logos/fcs_logo3.png
       title: Asistente de investigación FSE - Proyecto ANII. 
-      company: Facultad de Ciencias Sociales (UdelaR)
+      company: School of Social Sciences - University of Republic
       duration: September-October 2015
 teaching:
   enable: true
   item:
     - logo: logos/logo_fcea.png
-      title: Statistics teacher
-      company: Facultad de Cs.Económicas (UdelaR)
+      title: Teaching Assistant in Statistics
+      company: School of Economics - University of Republic
       duration: 2009-2015
     - logo: logos/logo_fcs.png
-      title: R/Markdown teacher
-      company: EP - Facultad de Ciencias Sociales (UdelaR)
+      title: R/Markdown teaching instructor
+      company: School of Social Sciences
       duration: 2010-2020
     - logo: logos/logo_fcs.png
-      title: R teacher
-      company: Maestría en Demografía - FCS (UdelaR)
+      title: R teaching instructor
+      company: Master in Demography - School of Social Sciences
       duration: 2021
     - logo: logos/logo_ucu.png
-      title: R teacher
-      company: EIM - Universidad Católica del Uruguay
+      title: R teaching instructor
+      company: Winter School - Catholic University of Uruguay
       duration: 2019-2021
 education:
   enable: false
   item:
-    - title: BSc Computer Science
-      year: 2018 - Present
-      academy: Durham University
-      image: https://res.cloudinary.com/samrobbins/image/upload/f_auto,q_auto/v1591793268/logos/logos_Durham_fc2sae.svg
+    - title: BA (Hons) Economics
+      year: 2002 - 2012
+      academy: School of Economics - University of Republic
+      image: 
+  item:
+    - title: BA (Hons) Statistics
+      year: 2012 - 
+      academy: School of Economics - University of Republic
+      image:
+  item:
+    - title: Master in Gender and Equality Policies
+      year: 2018 - 2021
+      academy: Latin-American School of Social Science (FLACSO)
+      image: 
 certifications:
   enable: false
   item:
@@ -111,7 +124,7 @@ hackathons:
   enable: true
   item:
     - title: ech package
-      description: Caja de herramientas para procesar la ECH (Uruguay)
+      description: R toolbox for the processing of the Encuesta Continua de Hogares (ECH) from Uruguay
       image: logos/ech_logo.png
       url: https://calcita.github.io/ech/
     - title: Femicide dashboard
