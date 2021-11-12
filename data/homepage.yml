@@ -11,7 +11,7 @@ social:
   gmail: calciopdu
 about:
   enable: true
-  content: Data Analyst / Scientist
+  content: Data Scientist/Analyst
   button:
     btnText: Find out more
     URL: "/about"
@@ -63,7 +63,7 @@ experience:
       company: Latin American Renal Cancer Group
       duration: 2020-
     - logo: logos/mides_logo.png
-      title: Data analyst/scientist
+      title: Data scientist/analyst
       company: Ministerio de Desarrollo Social
       duration: 2008-
     - logo: logos/logo_opcion.png
