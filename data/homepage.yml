@@ -30,15 +30,18 @@ skill:
     - title: git
       logo: logos/git.svg
       description: Version control of all my work
+    - title: Amazon Web Services
+      logo: logos/aws.png
+      description: EC2, S3, Lambda, CloudWatch
+    - title: Docker
+      logo: logos/Docker.svg
+      description: Shiny app deploy
     - title: LaTex
       logo: logos/latex.svg
       description: 
     - title: Markdown
       logo: logos/markdown_logo.png
       description: 
-    - title: Amazon Web Services
-      logo: logos/aws.png
-      description:
     - title: JavaScript
       logo: logos/Javascript.svg
       description: 
@@ -48,9 +51,6 @@ skill:
     - title: HTML5
       logo: logos/html5.png
       description: 
-    - title: Docker
-      logo: logos/Docker.svg
-      description: Shiny app deploy
     - title: Netlify
       logo: logos/netlify.svg
       description: Slides and web deploy
