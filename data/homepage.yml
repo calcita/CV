@@ -36,6 +36,9 @@ skill:
     - title: Markdown
       logo: logos/markdown_logo.png
       description: 
+    - title: Amazon Web Services
+      logo: logos/aws.png
+      description:
     - title: JavaScript
       logo: logos/Javascript.svg
       description: 
