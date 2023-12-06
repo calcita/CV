@@ -23,7 +23,7 @@ skill:
       description: Over 10 years experience
     - title: Python
       logo: logos/python.svg
-      description: Using python in specific projects
+      description: Using python for ML y DL projects
     - title: SQL
       logo: logos/postgresql.svg
       description: PostgreSQL / MySQL
@@ -32,7 +32,7 @@ skill:
       description: Version control of all my work
     - title: Amazon Web Services
       logo: logos/aws.png
-      description: EC2, S3, Lambda, CloudWatch
+      description: EC2, S3, RDS, Lambda, CloudWatch, Route53
     - title: Docker
       logo: logos/Docker.svg
       description: Shiny app deploy
@@ -53,7 +53,7 @@ skill:
       description: 
     - title: Netlify
       logo: logos/netlify.svg
-      description: Slides and web deploy
+      description: Slides and static web deploy
 experience:
   enable: true
   item:
@@ -69,14 +69,18 @@ experience:
       title: Data scientist/analyst
       company: Ministerio de Desarrollo Social
       duration: 2008-
+    - logo: logos/logo_fcea.png
+      title: Shiny developer
+      company: School of Economics - University of Republic
+      duration: October 2022 - June 2023
     - logo: logos/logo_opcion.png
       title: Sampler - ICT in family farming systems survey
       company: Opción Consultores
-      duration: abril 2021
+      duration: April 2021
     - logo: logos/logo_opcion.png
       title: Sampler - Childhood, time use and gender survey
       company: Opción Consultores
-      duration: julio 2021
+      duration: July 2021
     - logo: logos/fcs_logo3.png
       title: Asistente de investigación FSE - Proyecto ANII. 
       company: School of Social Sciences - University of Republic
@@ -130,11 +134,21 @@ hackathons:
       description: R toolbox for the processing of the Encuesta Continua de Hogares (ECH) from Uruguay
       image: logos/ech_logo.png
       url: https://calcita.github.io/ech/
+    - title: bugdetuy package
+      description: R package to work with the national budget and exchange rates of the main currencies
+      image: logos/budgetuy.png
+      url: https://github.com/R-Lab-Uy/budgetuy/
     - title: Femicide dashboard
-      description: ...
+      description: Cartography of femicides in Uruguay
       image: logos/femicide_shiny.png
       url: https://calcita.shinyapps.io/VBG_UY/
+    - title: Monitor de Compras Públicas
+      description: Procurement Insights Monitor
+      image: logos/compras_shiny.png
+      url: https://shiny.fcea.udelar.edu.uy/compras_publicas/
     - title: Research
       description: Master thesis
       image: logos/mosaic_delmira.jpg
       url: https://calcita.github.io/feminicide-thesis/
+
+

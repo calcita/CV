@@ -6,7 +6,11 @@
     <description>Recent content in Gabriela Mathieu&#39;s Website on Gabriela Mathieu</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate><atom:link href="https://gabrielamathieu.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Oct 2017 15:26:15 +0000</lastBuildDate>
+    
+	<atom:link href="https://gabrielamathieu.netlify.app/index.xml" rel="self" type="application/rss+xml" />
+    
+    
     <item>
       <title>Desactualizar (downgrade) R en Ubuntu</title>
       <link>https://gabrielamathieu.netlify.app/blog/first-blog/</link>
@@ -33,9 +37,9 @@ Downgrade R Para volver a la versión anterior de R, adapté la sugerencia de es
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
       
       <guid>https://gabrielamathieu.netlify.app/post/me/</guid>
-      <description>I have 10+ years of R programming experience: data analysis and visualization, statistical analysis and also teaching.
-My work experience includes: Statistical analysis of economy and social information with a geospatial approach, Teaching Assistant in Statistics and R software Teaching Instructor. I am from Uruguay and I am living in Montevideo.
-I am currently completing the Diploma in Gender and Politics of Equality of Flacso, to specialize in the analysis of data with a gender perspective.</description>
+      <description>I have 10+ years of R programming experience: Shiny apps, data analysis and visualization and also teaching.
+I also use python mainly for machine learning and deep learning. I am using and learning AWS and Docker for private projects where I combine the use of Python, R and PostgreSQL.
+I am passionate about free software and free culture. I have developed some R packages that are available to the community as well as Shiny applications using open data on various topics.</description>
     </item>
     
   </channel>
