@@ -2,59 +2,46 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Categories on Gabriela Mathieu</title>
-    <link>https://gabrielamathieu.netlify.app/categories/</link>
+    <link>http://localhost:4321/categories/</link>
     <description>Recent content in Categories on Gabriela Mathieu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://gabrielamathieu.netlify.app/categories/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="http://localhost:4321/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>R</title>
-      <link>https://gabrielamathieu.netlify.app/categories/r/</link>
+      <link>http://localhost:4321/categories/r/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://gabrielamathieu.netlify.app/categories/r/</guid>
+      <guid>http://localhost:4321/categories/r/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>AWS</title>
-      <link>https://gabrielamathieu.netlify.app/categories/aws/</link>
+      <link>http://localhost:4321/categories/aws/</link>
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gabrielamathieu.netlify.app/categories/aws/</guid>
+      <guid>http://localhost:4321/categories/aws/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Docker</title>
-      <link>https://gabrielamathieu.netlify.app/categories/docker/</link>
+      <link>http://localhost:4321/categories/docker/</link>
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gabrielamathieu.netlify.app/categories/docker/</guid>
+      <guid>http://localhost:4321/categories/docker/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>Python</title>
-      <link>https://gabrielamathieu.netlify.app/categories/python/</link>
+      <link>http://localhost:4321/categories/python/</link>
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gabrielamathieu.netlify.app/categories/python/</guid>
+      <guid>http://localhost:4321/categories/python/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>SQL</title>
-      <link>https://gabrielamathieu.netlify.app/categories/sql/</link>
+      <link>http://localhost:4321/categories/sql/</link>
       <pubDate>Fri, 15 Sep 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://gabrielamathieu.netlify.app/categories/sql/</guid>
+      <guid>http://localhost:4321/categories/sql/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

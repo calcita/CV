@@ -70,7 +70,7 @@ author = "Gabriela Mathieu"
   formAction = "" #contact form works with formspree.io
 
   [params.footer]
-  email = "gabrielamathieu@gmx.com"
+  email = "calcita@duck.com"
   address = "Montevideo, Uruguay"
   googlemaps = ""
 

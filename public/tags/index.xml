@@ -2,32 +2,25 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Tags on Gabriela Mathieu</title>
-    <link>https://gabrielamathieu.netlify.app/tags/</link>
+    <link>http://localhost:4321/tags/</link>
     <description>Recent content in Tags on Gabriela Mathieu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://gabrielamathieu.netlify.app/tags/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="http://localhost:4321/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>install</title>
-      <link>https://gabrielamathieu.netlify.app/tags/install/</link>
+      <title>Install</title>
+      <link>http://localhost:4321/tags/install/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://gabrielamathieu.netlify.app/tags/install/</guid>
+      <guid>http://localhost:4321/tags/install/</guid>
       <description></description>
     </item>
-    
     <item>
-      <title>ubuntu</title>
-      <link>https://gabrielamathieu.netlify.app/tags/ubuntu/</link>
+      <title>Ubuntu</title>
+      <link>http://localhost:4321/tags/ubuntu/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://gabrielamathieu.netlify.app/tags/ubuntu/</guid>
+      <guid>http://localhost:4321/tags/ubuntu/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>

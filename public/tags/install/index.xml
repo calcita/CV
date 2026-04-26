@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>install on Gabriela Mathieu</title>
-    <link>https://gabrielamathieu.netlify.app/tags/install/</link>
-    <description>Recent content in install on Gabriela Mathieu</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Install on Gabriela Mathieu</title>
+    <link>http://localhost:4321/tags/install/</link>
+    <description>Recent content in Install on Gabriela Mathieu</description>
+    <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 05 Jun 2021 00:00:00 +0000</lastBuildDate>
-    
-	<atom:link href="https://gabrielamathieu.netlify.app/tags/install/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <atom:link href="http://localhost:4321/tags/install/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Downgrade (desactualizar) R en Ubuntu</title>
-      <link>https://gabrielamathieu.netlify.app/post/r/</link>
+      <link>http://localhost:4321/post/r/</link>
       <pubDate>Sat, 05 Jun 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://gabrielamathieu.netlify.app/post/r/</guid>
-      <description>Se me actualizó R a la versión 4.1 con otras actualizaciones de Ubuntu y no me percaté hasta que intenté usar ggplot2 y se rompió. En varios grupos de R a otras personas le estaba lo mismo ya que la versión estable de Rstudio aún no es compatible 100% con la versión 4.1 de R.
-Downgrade R Para volver a la versión anterior de R, adapté la sugerencia de este post.</description>
+      <guid>http://localhost:4321/post/r/</guid>
+      <description>&lt;p&gt;Se me actualizó R a la versión 4.1 con otras actualizaciones de Ubuntu y no me percaté hasta que intenté usar ggplot2 y se rompió. En varios grupos de R a otras personas le estaba lo mismo ya que la versión estable de Rstudio aún no es compatible 100% con la versión 4.1 de R.&lt;/p&gt;&#xA;&lt;hr /&gt;&#xA;&lt;div id=&#34;downgrade-r&#34; class=&#34;section level1&#34;&gt;&#xA;&lt;h1&gt;Downgrade R&lt;/h1&gt;&#xA;&lt;p&gt;Para volver a la versión anterior de R, adapté la sugerencia de este &lt;a href=&#34;https://stackoverflow.com/questions/32984676/how-to-downgrade-r-version-3-2-2-to-version-3-1-1-on-ubuntu&#34;&gt;post&lt;/a&gt;. Para pasar de R 4.1 a R 4.0.5, los pasos que seguí fueron los siguientes:&lt;/p&gt;</description>
     </item>
-    
   </channel>
 </rss>

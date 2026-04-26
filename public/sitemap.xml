@@ -1,100 +1,62 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
-  
   <url>
-    <loc>https://gabrielamathieu.netlify.app/blog/first-blog/</loc>
+    <loc>http://localhost:4321/blog/first-blog/</loc>
     <lastmod>2021-06-05T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/categories/</loc>
+  </url><url>
+    <loc>http://localhost:4321/categories/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/post/r/</loc>
+  </url><url>
+    <loc>http://localhost:4321/post/r/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/tags/install/</loc>
+  </url><url>
+    <loc>http://localhost:4321/tags/install/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/post/</loc>
+  </url><url>
+    <loc>http://localhost:4321/post/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/categories/r/</loc>
+  </url><url>
+    <loc>http://localhost:4321/categories/r/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/tags/</loc>
+  </url><url>
+    <loc>http://localhost:4321/tags/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/tags/ubuntu/</loc>
+  </url><url>
+    <loc>http://localhost:4321/tags/ubuntu/</loc>
     <lastmod>2021-06-05T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/about/</loc>
+  </url><url>
+    <loc>http://localhost:4321/about/</loc>
     <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/blog/</loc>
+  </url><url>
+    <loc>http://localhost:4321/blog/</loc>
     <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/contact/</loc>
+  </url><url>
+    <loc>http://localhost:4321/contact/</loc>
     <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/portfolio/</loc>
+  </url><url>
+    <loc>http://localhost:4321/portfolio/</loc>
     <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/services/</loc>
+  </url><url>
+    <loc>http://localhost:4321/services/</loc>
     <lastmod>2019-05-12T12:14:34+06:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/</loc>
+  </url><url>
+    <loc>http://localhost:4321/</loc>
     <lastmod>2019-10-26T15:26:15+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/post/me/</loc>
+  </url><url>
+    <loc>http://localhost:4321/post/me/</loc>
+    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/aws/</loc>
+    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/docker/</loc>
+    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/python/</loc>
+    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>http://localhost:4321/categories/sql/</loc>
     <lastmod>2017-09-15T00:00:00+00:00</lastmod>
   </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/categories/aws/</loc>
-    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/categories/docker/</loc>
-    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/categories/python/</loc>
-    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://gabrielamathieu.netlify.app/categories/sql/</loc>
-    <lastmod>2017-09-15T00:00:00+00:00</lastmod>
-  </url>
-  
 </urlset>
